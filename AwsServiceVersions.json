@@ -1,6 +1,6 @@
 [
   {
-    "code": "versions.services.ecs::fargate_linux.platform_version",
+    "id": "versions.services.ecs::fargate_linux.platform_version",
     "title": "Fargate Linux Platform Version",
     "platform_version": {
       "supported": [
@@ -30,7 +30,7 @@
     }
   },
   {
-    "code": "versions.services.ecs::container_amazonlinux2.agent_version",
+    "id": "versions.services.ecs::container_amazonlinux2.agent_version",
     "title": "Fargate Linux Platform Version",
     "agent_version": {
       "supported": [
@@ -557,7 +557,7 @@
     }
   },
   {
-    "code": "versions.services.emr::instances.versions",
+    "id": "versions.services.emr::instances.versions",
     "title": "EMR Latest generation of instances",
     "instances": {
       "current": [
@@ -859,7 +859,7 @@
     }
   },
   {
-    "code": "versions.services.ecs::fargate_windows.platform_version",
+    "id": "versions.services.ecs::fargate_windows.platform_version",
     "title": "Fargate Windows Platform Version",
     "platform_version": {
       "supported": [
@@ -869,7 +869,7 @@
     }
   },
   {
-    "code": "versions.services.emr::datapipeline.instances",
+    "id": "versions.services.emr::datapipeline.instances",
     "title": "ElastiCache for Redis versions",
     "instances": {
       "current": [
@@ -977,9 +977,9 @@
     }
   },
   {
-    "code": "versions.services.ecs::redis.node_generations",
+    "id": "versions.services.ecs::redis.node_generation",
     "title": "ElastiCache cluster latest node version ( redis )",
-    "node_version": {
+    "node_generation": {
       "current": [
         "cache.m6g.large",
         "cache.m6g.xlarge",
@@ -1058,7 +1058,7 @@
     }
   },
   {
-    "code": "versions.services.ecs::redis.engine_versions",
+    "id": "versions.services.ecs::redis.engine_version",
     "title": "ElastiCache for Redis versions",
     "engine_version": {
       "supported": [
@@ -1092,9 +1092,204 @@
     }
   },
   {
-    "code": "versions.services.eks::kubernetes.versions",
+    "id": "versions.services.rds::instances.classes",
+    "title": "RDS Instances latest generation of instance classes",
+    "classes": {
+      "current": [
+        "db.m6g \u2013 general-purpose instance classes powered by AWS\n                                Graviton2 processors",
+        "db.m6g.16xlarge",
+        "db.m6g.12xlarge",
+        "db.m6g.8xlarge",
+        "db.m6g.4xlarge",
+        "db.m6g.2xlarge",
+        "db.m6g.xlarge",
+        "db.m6g.large",
+        "db.m6gd \u2013 general-purpose instance classes powered by AWS\n                                Graviton2 processors",
+        "db.m6gd.16xlarge",
+        "db.m6gd.12xlarge",
+        "db.m6gd.8xlarge",
+        "db.m6gd.4xlarge",
+        "db.m6gd.2xlarge",
+        "db.m6gd.xlarge",
+        "db.m6gd.large",
+        "db.m6i \u2013 general-purpose instance classes",
+        "db.m6i.32xlarge",
+        "db.m6i.24xlarge",
+        "db.m6i.16xlarge",
+        "db.m6i.12xlarge",
+        "db.m6i.8xlarge",
+        "db.m6i.4xlarge",
+        "db.m6i.2xlarge",
+        "db.m6i.xlarge",
+        "db.m6i.large",
+        "db.m5d \u2013 general-purpose instance classes",
+        "db.m5d.24xlarge",
+        "db.m5d.16xlarge",
+        "db.m5d.12xlarge",
+        "db.m5d.8xlarge",
+        "db.m5d.4xlarge",
+        "db.m5d.2xlarge",
+        "db.m5d.xlarge",
+        "db.m5d.large",
+        "db.m5 \u2013 general-purpose instance classes",
+        "db.m5.24xlarge",
+        "db.m5.16xlarge",
+        "db.m5.12xlarge",
+        "db.m5.8xlarge",
+        "db.m5.4xlarge",
+        "db.m5.2xlarge",
+        "db.m5.xlarge",
+        "db.m5.large",
+        "db.m4 \u2013 general-purpose instance classes",
+        "db.m4.16xlarge",
+        "db.m4.10xlarge",
+        "db.m4.4xlarge",
+        "db.m4.2xlarge",
+        "db.m4.xlarge",
+        "db.m4.large",
+        "db.m3 \u2013 general-purpose instance classes",
+        "db.m3.2xlarge",
+        "db.m3.xlarge",
+        "db.m3.large",
+        "db.m3.medium",
+        "db.x2g \u2013\n                                memory-optimized instance classes powered by AWS Graviton2\n                                processors",
+        "db.x2g.16xlarge",
+        "db.x2g.12xlarge",
+        "db.x2g.8xlarge",
+        "db.x2g.4xlarge",
+        "db.x2g.2xlarge",
+        "db.x2g.xlarge",
+        "db.x2g.large",
+        "db.z1d \u2013\n                                memory-optimized instance classes",
+        "db.z1d.12xlarge",
+        "db.z1d.6xlarge",
+        "db.z1d.3xlarge",
+        "db.z1d.2xlarge",
+        "db.z1d.xlarge",
+        "db.z1d.large",
+        "db.x1e \u2013 memory-optimized instance classes",
+        "db.x1e.32xlarge",
+        "db.x1e.16xlarge",
+        "db.x1e.8xlarge",
+        "db.x1e.4xlarge",
+        "db.x1e.2xlarge",
+        "db.x1e.xlarge",
+        "db.x1 \u2013 memory-optimized instance classes",
+        "db.x1.32xlarge",
+        "db.x1.16xlarge",
+        "db.r6g \u2013 memory-optimized instance classes powered by AWS\n                                Graviton2 processors",
+        "db.r6g.16xlarge",
+        "db.r6g.12xlarge",
+        "db.r6g.8xlarge",
+        "db.r6g.4xlarge",
+        "db.r6g.2xlarge",
+        "db.r6g.xlarge",
+        "db.r6g.large",
+        "db.r6gd \u2013 memory-optimized instance classes powered by AWS\n                                Graviton2 processors",
+        "db.r6gd.16xlarge",
+        "db.r6gd.12xlarge",
+        "db.r6gd.8xlarge",
+        "db.r6gd.4xlarge",
+        "db.r6gd.2xlarge",
+        "db.r6gd.xlarge",
+        "db.r6gd.large",
+        "db.r6i \u2013 memory-optimized instance\n                            classes",
+        "db.r6i.32xlarge",
+        "db.r6i.24xlarge",
+        "db.r6i.16xlarge",
+        "db.r6i.12xlarge",
+        "db.r6i.8xlarge",
+        "db.r6i.4xlarge",
+        "db.r6i.2xlarge",
+        "db.r6i.xlarge",
+        "db.r6i.large",
+        "db.r5d \u2013 memory-optimized instance classes",
+        "db.r5d.24xlarge",
+        "db.r5d.16xlarge",
+        "db.r5d.12xlarge",
+        "db.r5d.8xlarge",
+        "db.r5d.4xlarge",
+        "db.r5d.2xlarge",
+        "db.r5d.xlarge",
+        "db.r5d.large",
+        "db.r5b \u2013 memory-optimized instance classes",
+        "db.r5b.24xlarge",
+        "db.r5b.16xlarge",
+        "db.r5b.12xlarge",
+        "db.r5b.8xlarge",
+        "db.r5b.4xlarge",
+        "db.r5b.2xlarge",
+        "db.r5b.xlarge",
+        "db.r5b.large",
+        "db.r5 \u2013 memory-optimized instance classes preconfigured for\n                                high memory, storage, and I/O",
+        "db.r5.12xlarge.tpc2.mem2x",
+        "db.r5.8xlarge.tpc2.mem3x",
+        "db.r5.6xlarge.tpc2.mem4x",
+        "db.r5.4xlarge.tpc2.mem4x",
+        "db.r5.4xlarge.tpc2.mem3x",
+        "db.r5.4xlarge.tpc2.mem2x",
+        "db.r5.2xlarge.tpc2.mem8x",
+        "db.r5.2xlarge.tpc2.mem4x",
+        "db.r5.2xlarge.tpc1.mem2x",
+        "db.r5.xlarge.tpc2.mem4x",
+        "db.r5.xlarge.tpc2.mem2x",
+        "db.r5.large.tpc1.mem2x",
+        "db.r5 \u2013 memory-optimized instance classes",
+        "db.r5.24xlarge",
+        "db.r5.16xlarge",
+        "db.r5.12xlarge",
+        "db.r5.8xlarge",
+        "db.r5.4xlarge",
+        "db.r5.2xlarge",
+        "db.r5.xlarge",
+        "db.r5.large",
+        "db.r4 \u2013 memory-optimized instance classes",
+        "db.r4.16xlarge",
+        "db.r4.8xlarge",
+        "db.r4.4xlarge",
+        "db.r4.2xlarge",
+        "db.r4.xlarge",
+        "db.r4.large",
+        "db.r3 \u2013 memory-optimized instance classes",
+        "db.r3.8xlarge**",
+        "db.r3.4xlarge",
+        "db.r3.2xlarge",
+        "db.r3.xlarge",
+        "db.r3.large",
+        "db.t4g \u2013 burstable-performance instance\n                            classes",
+        "db.t4g.2xlarge",
+        "db.t4g.xlarge",
+        "db.t4g.large",
+        "db.t4g.medium",
+        "db.t4g.small",
+        "db.t4g.micro",
+        "db.t3 \u2013 burstable-performance instance\n                            classes",
+        "db.t3.2xlarge",
+        "db.t3.xlarge",
+        "db.t3.large",
+        "db.t3.medium",
+        "db.t3.small",
+        "db.t3.micro",
+        "db.t2 \u2013 burstable-performance instance\n                            classes",
+        "db.t2.2xlarge",
+        "db.t2.xlarge",
+        "db.t2.large",
+        "db.t2.medium",
+        "db.t2.small",
+        "db.t2.micro"
+      ],
+      "previous": [],
+      "recommended_upgrade": [
+        "M3 to M5",
+        "R3 to R5",
+        "M1 to T2"
+      ]
+    }
+  },
+  {
+    "id": "versions.services.eks::kubernetes.versions",
     "title": "Amazon EKS Kubernetes versions",
-    "version": {
+    "versions": {
       "supported": [
         "1.22.9",
         "1.21.12",
@@ -1105,7 +1300,7 @@
     }
   },
   {
-    "code": "versions.services.ecs::container_amazonlinux.agent_version",
+    "id": "versions.services.ecs::container_amazonlinux.agent_version",
     "title": "Fargate Linux Platform Version",
     "agent_version": {
       "supported": [
@@ -1884,9 +2079,9 @@
     }
   },
   {
-    "code": "versions.services.ecs::memcached.node_generations",
+    "id": "versions.services.ecs::memcached.node_generation",
     "title": "ElastiCache cluster latest node version ( memcached )",
-    "node_version": {
+    "node_generation": {
       "current": [
         "cache.m6g.large",
         "cache.m6g.xlarge",
@@ -1959,7 +2154,7 @@
     }
   },
   {
-    "code": "versions.services.ecs::memcached.engine_versions",
+    "id": "versions.services.ecs::memcached.engine_version",
     "title": "ElastiCache for Memcached versions",
     "engine_version": {
       "supported": [

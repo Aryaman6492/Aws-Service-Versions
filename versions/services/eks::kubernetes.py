@@ -15,8 +15,8 @@ def versions():
 		versions['supported'].append(version.get_text(strip=True))
 
 	return {
-		'code' : __name__+'.versions',
+		'id' : __name__+'.versions',
 		'title' : title,
-		'version' : versions
+		'versions' : versions
 	}
 

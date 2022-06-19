@@ -21,7 +21,7 @@ def platform_version():
 		for row in table.find('tbody').find_all('tr')]
 
 	return {
-		'code' : __name__+'.platform_version',
+		'id' : __name__+'.platform_version',
 		'title' : title,
 		'platform_version' : platform_versions
 	}

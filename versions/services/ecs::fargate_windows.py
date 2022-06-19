@@ -13,7 +13,7 @@ def platform_version():
 		platform_versions['supported'].append(version.get_text(strip=True))
 
 	return {
-		'code' : __name__+'.platform_version',
+		'id' : __name__+'.platform_version',
 		'title' : title,
 		'platform_version' : platform_versions
 	}

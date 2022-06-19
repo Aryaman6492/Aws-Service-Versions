@@ -4,7 +4,7 @@ from versions.parser import MarkdownDoc, HtmlDoc
 import re
 
 @register
-def node_generations():
+def node_generation():
 	title = 'ElastiCache cluster latest node version ( memcached )'
 	url = 'https://raw.githubusercontent.com/awsdocs/amazon-elasticache-docs/master/doc_source/memcache/CacheNodes.SupportedTypes.md'
 	doc = MarkdownDoc(url)
@@ -25,9 +25,9 @@ def node_generations():
 				continue
 
 	return {
-		'code' : __name__+'.node_generations',
+		'id' : __name__+'.node_generation',
 		'title' : title,
-		'node_version' : node
+		'node_generation' : node
 	}
 
 
@@ -44,7 +44,7 @@ def engine_versions():
 		engine['supported'].append(version.get_text())
 
 	return {
-		'code' : __name__+'.engine_versions',
+		'id' : __name__+'.engine_version',
 		'title' : title,
 		'engine_version' : engine
 	}

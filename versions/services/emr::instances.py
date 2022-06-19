@@ -38,7 +38,7 @@ def instances():
 		for _ in section.find_all('a', class_='lb-accordion-trigger')]
 
 	return {
-		'code' : __name__+'.versions',
+		'id' : __name__+'.versions',
 		'title' : title,
 		'instances' : instances
 	}

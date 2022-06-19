@@ -28,7 +28,7 @@ def instances():
 		instances['current'].append(row_current)
 
 	return {
-		'code' : __name__+'.instances',
+		'id' : __name__+'.instances',
 		'title' : title,
 		'instances' : instances
 	}

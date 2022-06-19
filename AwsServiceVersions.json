@@ -1,5 +1,129 @@
 [
   {
+    "id": "versions.services.red::cluster.node_generation",
+    "title": "Redshift clusters latest generation of nodes",
+    "node_generation": {
+      "current": {
+        "RA3 node types": [
+          "ra3.xlplus",
+          "ra3.4xlarge",
+          "ra3.16xlarge"
+        ],
+        "Dense storage node types": [
+          "ds2.xlarge",
+          "ds2.8xlarge"
+        ],
+        "Dense compute node types": [
+          "dc2.large",
+          "dc2.8xlarge",
+          "dc1.large1",
+          "dc1.8xlarge1"
+        ]
+      },
+      "previous": {},
+      "recommended_upgrade": {
+        "ds2.xlarge": [
+          {
+            "Existing number of nodes": "1",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a  1-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "2",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "3",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "4",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 3-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "5",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "6",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "7",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 5-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "8",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create a 2-node ra3.4xlarge cluster1."
+          },
+          {
+            "Existing number of nodes": "9",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
+          },
+          {
+            "Existing number of nodes": "10",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
+          },
+          {
+            "Existing number of nodes": "11-128",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 1 node of ra3.4xlarge for every 4 nodes of ds2.xlarge1."
+          }
+        ],
+        "ds2.8xlarge": [
+          {
+            "Existing number of nodes": "2\u201315",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of ds2.8xlarge1."
+          },
+          {
+            "Existing number of nodes": "16\u2013128",
+            "Recommended new node type": "ra3.16xlarge",
+            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of ds2.8xlarge1."
+          }
+        ],
+        "dc2.8xlarge": [
+          {
+            "Existing number of nodes": "2\u201315",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of dc2.8xlarge1."
+          },
+          {
+            "Existing number of nodes": "16\u2013128",
+            "Recommended new node type": "ra3.16xlarge",
+            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of dc2.8xlarge1."
+          }
+        ],
+        "dc2.large": [
+          {
+            "Existing number of nodes": "1\u20134",
+            "Recommended new node type": "none",
+            "Upgrade action": "Keep existing dc2.large cluster."
+          },
+          {
+            "Existing number of nodes": "4\u201315",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create 3 nodes of ra3.xlplus for every 8 nodes of dc2.large1."
+          },
+          {
+            "Existing number of nodes": "16\u201332",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 1 node of ra3.4xlarge for every 8 nodes of dc2.large1,2."
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "versions.services.ecs::fargate_linux.platform_version",
     "title": "Fargate Linux Platform Version",
     "platform_version": {

@@ -8,7 +8,7 @@ def instances():
 	title = 'EMR Latest generation of instances'
 	url = 'https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-supported-instance-types.html'
 	doc = HtmlDoc(url)
-	instances = {'current' : [], 'previous': [], 'upgrade_recommendation' : {}}
+	instances = {'current' : [], 'previous': [], 'recommended_upgrade' : {}}
 	table = doc.find(class_='table-contents')
 	headers = [header.text for header in table.find('thead').find_all('th')]
 	for row in table.find('tbody').find_all('tr'):
@@ -34,7 +34,7 @@ def instances():
 	doc = HtmlDoc(url)
 
 	section = doc.find(id ='Upgrade_paths').parent
-	instances['upgrade_recommendation'] = [_.get_text(strip=True) 
+	instances['recommended_upgrade'] = [_.get_text(strip=True) 
 		for _ in section.find_all('a', class_='lb-accordion-trigger')]
 
 	return {

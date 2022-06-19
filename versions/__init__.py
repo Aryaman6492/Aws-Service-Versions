@@ -14,4 +14,4 @@ def update():
 	for handler in HANDLERS:
 		meta = handler()
 		metadata.append(meta)
-	return json.dumps(metadata)
+	return json.dumps(metadata, indent = 2)

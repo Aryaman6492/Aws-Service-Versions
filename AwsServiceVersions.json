@@ -1,0 +1,1979 @@
+[
+  {
+    "code": "versions.services.ecs::fargate_linux.platform_version",
+    "title": "Fargate Linux Platform Version",
+    "platform_version": {
+      "supported": [
+        "1.4.0",
+        "1.3.0",
+        "1.2.0",
+        "1.1.0",
+        "1.0.0"
+      ],
+      "deprecated": [
+        {
+          "Platform version": "1.0.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        },
+        {
+          "Platform version": "1.1.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        },
+        {
+          "Platform version": "1.2.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        }
+      ]
+    }
+  },
+  {
+    "code": "versions.services.ecs::container_amazonlinux2.agent_version",
+    "title": "Fargate Linux Platform Version",
+    "agent_version": {
+      "supported": [
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220607",
+          "Amazon ECS container agent version": "1.61.2",
+          "Docker version": "20.10.13",
+          "ecs-initversion": "1.61.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220520",
+          "Amazon ECS container agent version": "1.61.1",
+          "Docker version": "20.10.13",
+          "ecs-initversion": "latest"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220509",
+          "Amazon ECS container agent version": "1.61.1",
+          "Docker version": "20.10.13",
+          "ecs-initversion": "latest"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220421",
+          "Amazon ECS container agent version": "1.61.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "latest"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220411",
+          "Amazon ECS container agent version": "1.61.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "latest"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220328",
+          "Amazon ECS container agent version": "1.60.1",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.60.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220318",
+          "Amazon ECS container agent version": "1.60.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.60.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220304",
+          "Amazon ECS container agent version": "1.60.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.60.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220304",
+          "Amazon ECS container agent version": "1.60.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.60.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220209",
+          "Amazon ECS container agent version": "1.59.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.59.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20220121",
+          "Amazon ECS container agent version": "1.58.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.58.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20211209",
+          "Amazon ECS container agent version": "1.57.1",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.57.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20211120",
+          "Amazon ECS container agent version": "1.57.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.57.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20211103",
+          "Amazon ECS container agent version": "1.57.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.57.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20211020",
+          "Amazon ECS container agent version": "1.56.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.56.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20211013",
+          "Amazon ECS container agent version": "1.55.5",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.55.5-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210929",
+          "Amazon ECS container agent version": "1.55.4",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.55.4-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210922",
+          "Amazon ECS container agent version": "1.55.3",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.55.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210907",
+          "Amazon ECS container agent version": "1.55.2",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.55.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210819",
+          "Amazon ECS container agent version": "1.55.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.55.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210805",
+          "Amazon ECS container agent version": "1.55.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.55.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210802",
+          "Amazon ECS container agent version": "1.54.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.54.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210723",
+          "Amazon ECS container agent version": "1.54.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.54.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210708",
+          "Amazon ECS container agent version": "1.54.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.54.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210623",
+          "Amazon ECS container agent version": "1.53.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.53.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210609",
+          "Amazon ECS container agent version": "1.53.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.53.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210520",
+          "Amazon ECS container agent version": "1.52.2",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.52.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210514",
+          "Amazon ECS container agent version": "1.52.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.52.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210504",
+          "Amazon ECS container agent version": "1.52.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.52.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210428",
+          "Amazon ECS container agent version": "1.52.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.52.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210413",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210331",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210316",
+          "Amazon ECS container agent version": "1.50.3",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210301",
+          "Amazon ECS container agent version": "1.50.2",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210219",
+          "Amazon ECS container agent version": "1.50.2",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210210",
+          "Amazon ECS container agent version": "1.50.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210202",
+          "Amazon ECS container agent version": "1.50.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210121",
+          "Amazon ECS container agent version": "1.50.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20210106",
+          "Amazon ECS container agent version": "1.49.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.49.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20201209",
+          "Amazon ECS container agent version": "1.48.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.48.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20201130",
+          "Amazon ECS container agent version": "1.48.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.48.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20201125",
+          "Amazon ECS container agent version": "1.48.1",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.48.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20201119",
+          "Amazon ECS container agent version": "1.48.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.48.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20201028",
+          "Amazon ECS container agent version": "1.47.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.47.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20201013",
+          "Amazon ECS container agent version": "1.46.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.46.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200928",
+          "Amazon ECS container agent version": "1.45.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.45.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200915",
+          "Amazon ECS container agent version": "1.44.4",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.4-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200905",
+          "Amazon ECS container agent version": "1.44.3",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200902",
+          "Amazon ECS container agent version": "1.44.3",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200827",
+          "Amazon ECS container agent version": "1.44.2",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200820",
+          "Amazon ECS container agent version": "1.44.1",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200813",
+          "Amazon ECS container agent version": "1.44.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200805",
+          "Amazon ECS container agent version": "1.43.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.43.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200723",
+          "Amazon ECS container agent version": "1.42.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.42.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200708",
+          "Amazon ECS container agent version": "1.41.1",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.41.1-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200706",
+          "Amazon ECS container agent version": "1.41.1",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.41.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200623",
+          "Amazon ECS container agent version": "1.41.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.41.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200603",
+          "Amazon ECS container agent version": "1.40.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.40.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200430",
+          "Amazon ECS container agent version": "1.39.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.39.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200402",
+          "Amazon ECS container agent version": "1.39.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.39.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200319",
+          "Amazon ECS container agent version": "1.38.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.38.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200218",
+          "Amazon ECS container agent version": "1.37.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.37.0-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200205",
+          "Amazon ECS container agent version": "1.36.2",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.36.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200115",
+          "Amazon ECS container agent version": "1.36.1",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.36.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20200108",
+          "Amazon ECS container agent version": "1.36.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.36.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20191212",
+          "Amazon ECS container agent version": "1.35.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.35.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20191114",
+          "Amazon ECS container agent version": "1.33.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.33.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20191031",
+          "Amazon ECS container agent version": "1.32.1",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.32.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20191014",
+          "Amazon ECS container agent version": "1.32.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.32.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190925",
+          "Amazon ECS container agent version": "1.32.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.32.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190913",
+          "Amazon ECS container agent version": "1.31.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.31.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190815",
+          "Amazon ECS container agent version": "1.30.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.30.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190709",
+          "Amazon ECS container agent version": "1.29.1",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.29.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190614",
+          "Amazon ECS container agent version": "1.29.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.29.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190607",
+          "Amazon ECS container agent version": "1.29.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.29.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190603",
+          "Amazon ECS container agent version": "1.28.1",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.28.1-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190510",
+          "Amazon ECS container agent version": "1.28.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.28.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190402",
+          "Amazon ECS container agent version": "1.27.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.27.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190301",
+          "Amazon ECS container agent version": "1.26.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.26.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190215",
+          "Amazon ECS container agent version": "1.25.3",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.25.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190204",
+          "Amazon ECS container agent version": "1.25.2",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.25.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190127",
+          "Amazon ECS container agent version": "1.25.1",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.25.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190118",
+          "Amazon ECS container agent version": "1.25.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.25.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20190107",
+          "Amazon ECS container agent version": "1.24.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.24.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20181112",
+          "Amazon ECS container agent version": "1.22.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.22.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux 2 AMI": "20181016",
+          "Amazon ECS container agent version": "1.20.3",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.21.0-1"
+        }
+      ],
+      "deprecated": [
+        "1.20.0"
+      ]
+    }
+  },
+  {
+    "code": "versions.services.emr::instances.versions",
+    "title": "EMR Latest generation of instances",
+    "instances": {
+      "current": [
+        {
+          "Instance class": "General purpose",
+          "Instance types": [
+            "m5.xlarge\u00b3",
+            "m5.2xlarge\u00b3",
+            "m5.4xlarge\u00b3",
+            "m5.8xlarge\u00b3",
+            "m5.12xlarge\u00b3",
+            "m5.16xlarge\u00b3",
+            "m5.24xlarge\u00b3",
+            "m5a.xlarge",
+            "m5a.2xlarge",
+            "m5a.4xlarge",
+            "m5a.8xlarge",
+            "m5a.12xlarge",
+            "m5a.16xlarge",
+            "m5a.24xlarge",
+            "m5d.xlarge\u00b3",
+            "m5d.2xlarge\u00b3",
+            "m5d.4xlarge\u00b3",
+            "m5d.8xlarge\u00b3",
+            "m5d.12xlarge\u00b3",
+            "m5d.16xlarge\u00b3",
+            "m5d.24xlarge\u00b3",
+            "m5zn.xlarge",
+            "m5zn.2xlarge",
+            "m5zn.3xlarge",
+            "m5zn.6xlarge",
+            "m5zn.12xlarge",
+            "m6g.xlarge",
+            "m6g.2xlarge",
+            "m6g.4xlarge",
+            "m6g.8xlarge",
+            "m6g.12xlarge",
+            "m6g.16xlarge",
+            "m6gd.xlarge",
+            "m6gd.2xlarge",
+            "m6gd.4xlarge",
+            "m6gd.8xlarge",
+            "m6gd.12xlarge",
+            "m6gd.16xlarge"
+          ]
+        },
+        {
+          "Instance class": "Compute-optimized",
+          "Instance types": [
+            "c4.large",
+            "c4.xlarge",
+            "c4.2xlarge",
+            "c4.4xlarge",
+            "c4.8xlarge",
+            "c5.xlarge\u00b3",
+            "c5.2xlarge\u00b3",
+            "c5.4xlarge\u00b3",
+            "c5.9xlarge\u00b3",
+            "c5.12xlarge\u00b3",
+            "c5.18xlarge\u00b3",
+            "c5.24xlarge\u00b3",
+            "c5a.xlarge",
+            "c5a.2xlarge",
+            "c5a.4xlarge",
+            "c5a.8xlarge",
+            "c5a.12xlarge\u00b3",
+            "c5a.16xlarge\u00b3",
+            "c5ad.xlarge\u00b3",
+            "c5ad.2xlarge\u00b3",
+            "c5ad.4xlarge\u00b3",
+            "c5ad.8xlarge\u00b3",
+            "c5ad.12xlarge\u00b3",
+            "c5ad.16xlarge\u00b3",
+            "c5ad.24xlarge\u00b3",
+            "c5d.xlarge\u00b3",
+            "c5d.2xlarge\u00b3",
+            "c5d.4xlarge\u00b3",
+            "c5d.9xlarge\u00b3",
+            "c5d.12xlarge\u00b3",
+            "c5d.18xlarge\u00b3",
+            "c5d.24xlarge\u00b3",
+            "c5n.xlarge",
+            "c5n.2xlarge",
+            "c5n.4xlarge",
+            "c5n.9xlarge",
+            "c5n.18xlarge",
+            "c6g.xlarge",
+            "c6g.2xlarge",
+            "c6g.4xlarge",
+            "c6g.8xlarge",
+            "c6g.12xlarge",
+            "c6g.16xlarge",
+            "c6gd.xlarge",
+            "c6gd.2xlarge",
+            "c6gd.4xlarge",
+            "c6gd.8xlarge",
+            "c6gd.12xlarge",
+            "c6gd.16xlarge",
+            "c6gn.xlarge",
+            "c6gn.2xlarge",
+            "c6gn.4xlarge",
+            "c6gn.8xlarge",
+            "c6gn.12xlarge",
+            "c6gn.16xlarge",
+            "",
+            "z1d.xlarge",
+            "z1d.2xlarge",
+            "z1d.3xlarge",
+            "z1d.6xlarge",
+            "z1d.12xlarge"
+          ]
+        },
+        {
+          "Instance class": "Memory-optimized",
+          "Instance types": [
+            "r4.xlarge",
+            "r4.2xlarge",
+            "r4.4xlarge",
+            "r4.8xlarge",
+            "r4.16xlarge",
+            "r5.xlarge\u00b3",
+            "r5.2xlarge\u00b3",
+            "r5.4xlarge\u00b3",
+            "r5.8xlarge\u00b3",
+            "r5.12xlarge\u00b3",
+            "r5.16xlarge\u00b3",
+            "r5.24xlarge\u00b3",
+            "r5a.xlarge",
+            "r5a.2xlarge",
+            "r5a.4xlarge",
+            "r5a.8xlarge",
+            "r5a.12xlarge",
+            "r5a.16xlarge",
+            "r5a.24xlarge",
+            "r5b.xlarge",
+            "r5b.2xlarge",
+            "r5b.4xlarge",
+            "r5b.8xlarge",
+            "r5b.12xlarge",
+            "r5b.16xlarge",
+            "r5b.24xlarge",
+            "r5d.xlarge\u00b3",
+            "r5d.2xlarge\u00b3",
+            "r5d.4xlarge\u00b3",
+            "r5d.8xlarge\u00b3",
+            "r5d.12xlarge\u00b3",
+            "r5d.16xlarge\u00b3",
+            "r5d.24xlarge\u00b3",
+            "r5dn.xlarge",
+            "r5dn.2xlarge",
+            "r5dn.4xlarge",
+            "r5dn.8xlarge",
+            "r5dn.12xlarge",
+            "r5dn.16xlarge",
+            "r5dn.24xlarge r6g.xlarge",
+            "r6g.2xlarge",
+            "r6g.4xlarge",
+            "r6g.8xlarge",
+            "r6g.12xlarge",
+            "r6g.16xlarge",
+            "r6gd.xlarge",
+            "r6gd.2xlarge",
+            "r6gd.4xlarge",
+            "r6gd.8xlarge",
+            "r6gd.12xlarge",
+            "r6gd.16xlarge"
+          ]
+        },
+        {
+          "Instance class": "Storage-optimized",
+          "Instance types": [
+            "h1.2xlarge",
+            "h1.4xlarge",
+            "h1.8xlarge",
+            "h1.16xlarge",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "i3.xlarge",
+            "i3.2xlarge",
+            "i3.4xlarge",
+            "i3.8xlarge",
+            "i3.16xlarge",
+            "i3en.xlarge",
+            "i3en.2xlarge",
+            "i3en.3xlarge",
+            "i3en.6xlarge",
+            "i3en.12xlarge",
+            "i3en.24xlarge",
+            "d2.xlarge",
+            "d2.2xlarge",
+            "d2.4xlarge",
+            "d2.8xlarge",
+            "d3.xlarge",
+            "d3.2xlarge",
+            "d3.4xlarge",
+            "d3.8xlarge",
+            "d3en.xlarge",
+            "d3en.2xlarge",
+            "d3en.4xlarge",
+            "d3en.6xlarge",
+            "d3en.8xlarge",
+            "d3en.12xlarge"
+          ]
+        },
+        {
+          "Instance class": "Accelerated computing\n\t\t\t\t\t\t\t\t(GPU)",
+          "Instance types": [
+            "g3.4xlarge",
+            "g3.8xlarge",
+            "g3.16xlarge",
+            "g3s.xlarge",
+            "g4dn.xlarge",
+            "g4dn.2xlarge",
+            "g4dn.4xlarge",
+            "g4dn.8xlarge",
+            "g4dn.12xlarge",
+            "g4dn.16xlarge",
+            "p2.xlarge",
+            "p2.8xlarge",
+            "p2.16xlarge",
+            "p3.2xlarge",
+            "p3.8xlarge",
+            "p3.16xlarge"
+          ]
+        }
+      ],
+      "previous": [
+        {
+          "Instance class": "General purpose",
+          "Instance types": [
+            "m1.small\u00b9",
+            "m1.medium\u00b9",
+            "m1.large\u00b9",
+            "m1.xlarge\u00b9",
+            "m2.xlarge\u00b9",
+            "m2.2xlarge\u00b9",
+            "m2.4xlarge\u00b9",
+            "m3.xlarge\u00b9",
+            "m3.2xlarge\u00b9",
+            "m4.large",
+            "m4.xlarge",
+            "m4.2xlarge",
+            "m4.4xlarge",
+            "m4.10xlarge",
+            "m4.16xlarge"
+          ]
+        },
+        {
+          "Instance class": "Compute-optimized",
+          "Instance types": [
+            "c1.medium\u00b9 \u00b2",
+            "c1.xlarge\u00b9",
+            "c3.xlarge\u00b9",
+            "c3.2xlarge\u00b9",
+            "c3.4xlarge\u00b9",
+            "c3.8xlarge\u00b9",
+            "cc2.8xlarge"
+          ]
+        },
+        {
+          "Instance class": "Memory-optimized",
+          "Instance types": [
+            "r3.xlarge",
+            "r3.2xlarge",
+            "r3.4xlarge",
+            "r3.8xlarge",
+            "cr1.8xlarge"
+          ]
+        },
+        {
+          "Instance class": "Storage-optimized",
+          "Instance types": [
+            "hs1.8xlarge\u00b9",
+            "i2.xlarge",
+            "i2.2xlarge",
+            "i2.4xlarge",
+            "i2.8xlarge"
+          ]
+        },
+        {
+          "Instance class": "Accelerated computing\n\t\t\t\t\t\t\t\t(GPU)",
+          "Instance types": [
+            "g2.2xlarge"
+          ]
+        }
+      ],
+      "recommended_upgrade": [
+        "T1/M1 to T2",
+        "M1/M3 to M5",
+        "C1/C3 to C5",
+        "I2 to I3",
+        "M2/CR1/R3 to R4",
+        "HS1 to D2",
+        "G2 to G3"
+      ]
+    }
+  },
+  {
+    "code": "versions.services.ecs::fargate_windows.platform_version",
+    "title": "Fargate Windows Platform Version",
+    "platform_version": {
+      "supported": [
+        "1.0.0"
+      ],
+      "deprecated": []
+    }
+  },
+  {
+    "code": "versions.services.emr::datapipeline.instances",
+    "title": "ElastiCache for Redis versions",
+    "instances": {
+      "current": [
+        {
+          "Instance Class": "General purpose",
+          "Instance Types": [
+            "m1.small",
+            "m1.medium",
+            "m1.large",
+            "m1.xlarge",
+            "m3.xlarge",
+            "m3.2xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Compute optimized",
+          "Instance Types": [
+            "c1.medium",
+            "c1.xlarge",
+            "c3.xlarge",
+            "c3.2xlarge",
+            "c3.4xlarge",
+            "c3.8xlarge",
+            "cc1.4xlarge",
+            "cc2.8xlarge",
+            "c4.large",
+            "c4.xlarge",
+            "c4.2xlarge",
+            "c4.4xlarge",
+            "c4.8xlarge",
+            "c5.xlarge",
+            "c5.9xlarge",
+            "c5.2xlarge",
+            "c5.4xlarge",
+            "c5.9xlarge",
+            "c5.18xlarge",
+            "c5d.xlarge",
+            "c5d.2xlarge",
+            "c5d.4xlarge",
+            "c5d.9xlarge",
+            "c5d.18xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Memory optimized",
+          "Instance Types": [
+            "m2.xlarge",
+            "m2.2xlarge",
+            "m2.4xlarge",
+            "r3.xlarge",
+            "r3.2xlarge",
+            "r3.4xlarge",
+            "r3.8xlarge",
+            "cr1.8xlarge",
+            "m4.large",
+            "m4.xlarge",
+            "m4.2xlarge",
+            "m4.4xlarge",
+            "m4.10xlarge",
+            "m4.16large",
+            "m5.xlarge",
+            "m5.2xlarge",
+            "m5.4xlarge",
+            "m5.12xlarge",
+            "m5.24xlarge",
+            "m5d.xlarge",
+            "m5d.2xlarge",
+            "m5d.4xlarge",
+            "m5d.12xlarge",
+            "m5d.24xlarge",
+            "r4.large",
+            "r4.xlarge",
+            "r4.2xlarge",
+            "r4.4xlarge",
+            "r4.8xlarge",
+            "r4.16xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Storage optimized",
+          "Instance Types": [
+            "h1.4xlarge",
+            "hs1.2xlarge",
+            "hs1.4xlarge",
+            "hs1.8xlarge",
+            "i2.xlarge",
+            "i2.2xlarge",
+            "i2.4large",
+            "i2.8xlarge",
+            "d2.xlarge",
+            "d2.2xlarge",
+            "d2.4xlarge",
+            "d2.8xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Accelerated computing",
+          "Instance Types": [
+            "g2.2xlarge",
+            "cg1.4xlarge"
+          ]
+        }
+      ],
+      "previous": []
+    }
+  },
+  {
+    "code": "versions.services.ecs::redis.node_generations",
+    "title": "ElastiCache cluster latest node version ( redis )",
+    "node_version": {
+      "current": [
+        "cache.m6g.large",
+        "cache.m6g.xlarge",
+        "cache.m6g.2xlarge",
+        "cache.m6g.4xlarge",
+        "cache.m6g.8xlarge",
+        "cache.m6g.12xlarge",
+        "cache.m6g.16xlarge",
+        "cache.m5.large",
+        "cache.m5.xlarge",
+        "cache.m5.2xlarge",
+        "cache.m5.4xlarge",
+        "cache.m5.12xlarge",
+        "cache.m5.24xlarge",
+        "cache.m4.large",
+        "cache.m4.xlarge",
+        "cache.m4.2xlarge",
+        "cache.m4.4xlarge",
+        "cache.m4.10xlarge",
+        "cache.t4g.micro",
+        "cache.t4g.small",
+        "cache.t4g.medium",
+        "cache.t3.micro",
+        "cache.t3.small",
+        "cache.t3.medium",
+        "cache.t2.micro",
+        "cache.t2.small",
+        "cache.t2.medium",
+        "cache.r6gd.xlarge",
+        "cache.r6gd.2xlarge",
+        "cache.r6gd.4xlarge",
+        "cache.r6gd.8xlarge",
+        "cache.r6gd.12xlarge",
+        "cache.r6gd.16xlarge",
+        "cache.r6g.large",
+        "cache.r6g.xlarge",
+        "cache.r6g.2xlarge",
+        "cache.r6g.4xlarge",
+        "cache.r6g.8xlarge",
+        "cache.r6g.12xlarge",
+        "cache.r6g.16xlarge",
+        "cache.r6g.24xlarge",
+        "cache.r5.large",
+        "cache.r5.xlarge",
+        "cache.r5.2xlarge",
+        "cache.r5.4xlarge",
+        "cache.r5.12xlarge",
+        "cache.r5.24xlarge",
+        "cache.r4.large",
+        "cache.r4.xlarge",
+        "cache.r4.2xlarge",
+        "cache.r4.4xlarge",
+        "cache.r4.8xlarge",
+        "cache.r4.16xlarge"
+      ],
+      "previous": [
+        "cache.t1.micro",
+        "cache.m1.small",
+        "cache.m1.medium",
+        "cache.m1.large",
+        "cache.m1.xlarge",
+        "cache.m3.medium",
+        "cache.m3.large",
+        "cache.m3.xlarge",
+        "cache.m3.2xlarge",
+        "cache.c1.xlarge",
+        "cache.m2.xlarge",
+        "cache.m2.2xlarge",
+        "cache.m2.4xlarge",
+        "cache.r3.large",
+        "cache.r3.xlarge",
+        "cache.r3.2xlarge",
+        "cache.r3.4xlarge",
+        "cache.r3.8xlarge"
+      ]
+    }
+  },
+  {
+    "code": "versions.services.ecs::redis.engine_versions",
+    "title": "ElastiCache for Redis versions",
+    "engine_version": {
+      "supported": [
+        "Redis 6.2 (enhanced)",
+        "Redis 6.0 (enhanced)",
+        "Redis 5.0.6 (enhanced)",
+        "Redis 5.0.5 (enhanced)",
+        "Redis 5.0.4 (enhanced)",
+        "Redis 5.0.3 (enhanced)",
+        "Redis 5.0.0 (enhanced)",
+        "Redis 4.0.10 (enhanced)",
+        "Redis 3.2.10 (enhanced)",
+        "Redis 3.2.6 (enhanced)",
+        "Redis 3.2.4 (enhanced)",
+        "Redis 2.8.24 (enhanced)",
+        "Redis 2.8.23 (enhanced)",
+        "Redis 2.8.22 (enhanced)",
+        "Redis 2.8.21",
+        "Redis 2.8.19",
+        "Redis 2.8.6",
+        "Redis 2.6.13"
+      ],
+      "deprecated": [
+        {
+          "Source Major Version": "Version 2",
+          "Source Minor Versions": "2.8.24, 2.8.23, 2.8.22, 2.8.21, 2.8.12, 2.8.6, 2.6.13",
+          "Recommended Upgrade Target": "Version 6.2 or higherNoteFor US-ISO-EAST-1, US-ISO-WEST-1, and US-ISOB-EAST-1 Regions, we recommend 5.0.6 or higher.",
+          "EOL Date": "January 13, 2023"
+        }
+      ]
+    }
+  },
+  {
+    "code": "versions.services.eks::kubernetes.versions",
+    "title": "Amazon EKS Kubernetes versions",
+    "version": {
+      "supported": [
+        "1.22.9",
+        "1.21.12",
+        "1.20.15",
+        "1.19.16"
+      ],
+      "deprecated": []
+    }
+  },
+  {
+    "code": "versions.services.ecs::container_amazonlinux.agent_version",
+    "title": "Fargate Linux Platform Version",
+    "agent_version": {
+      "supported": [
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20220520",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.13",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20220509",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.13",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20220318",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20220315",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20220209",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20220121",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20211209",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20211120",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20211115",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20211103",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20211013",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210915",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "20.10.7",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210723",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210519",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210413",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210331",
+          "Amazon ECS container agent version": "1.51.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.51.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210316",
+          "Amazon ECS container agent version": "1.50.3",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210301",
+          "Amazon ECS container agent version": "1.50.2",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210219",
+          "Amazon ECS container agent version": "1.50.2",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210210",
+          "Amazon ECS container agent version": "1.50.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210202",
+          "Amazon ECS container agent version": "1.50.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210121",
+          "Amazon ECS container agent version": "1.50.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.50.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20210106",
+          "Amazon ECS container agent version": "1.49.0",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.49.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20201209",
+          "Amazon ECS container agent version": "1.48.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.48.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20201130",
+          "Amazon ECS container agent version": "1.48.1",
+          "Docker version": "19.03.13-ce",
+          "ecs-initversion": "1.48.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20201125",
+          "Amazon ECS container agent version": "1.48.1",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.48.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20201119",
+          "Amazon ECS container agent version": "1.48.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.48.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20201028",
+          "Amazon ECS container agent version": "1.47.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.47.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20201013",
+          "Amazon ECS container agent version": "1.46.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.46.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200928",
+          "Amazon ECS container agent version": "1.45.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.45.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200915",
+          "Amazon ECS container agent version": "1.44.4",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.4-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200905",
+          "Amazon ECS container agent version": "1.44.3",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200902",
+          "Amazon ECS container agent version": "1.44.3",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200827",
+          "Amazon ECS container agent version": "1.44.2",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200820",
+          "Amazon ECS container agent version": "1.44.1",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200813",
+          "Amazon ECS container agent version": "1.44.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.44.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200805",
+          "Amazon ECS container agent version": "1.43.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.43.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200723",
+          "Amazon ECS container agent version": "1.42.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.42.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200708",
+          "Amazon ECS container agent version": "1.41.1",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.41.1-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200706",
+          "Amazon ECS container agent version": "1.41.1",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.41.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200623",
+          "Amazon ECS container agent version": "1.41.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.41.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200603",
+          "Amazon ECS container agent version": "1.40.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.40.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200430",
+          "Amazon ECS container agent version": "1.39.0",
+          "Docker version": "19.03.6-ce",
+          "ecs-initversion": "1.39.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200402",
+          "Amazon ECS container agent version": "1.39.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.39.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200319",
+          "Amazon ECS container agent version": "1.38.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.38.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200218",
+          "Amazon ECS container agent version": "1.37.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.37.0-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200205",
+          "Amazon ECS container agent version": "1.36.2",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.36.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200115",
+          "Amazon ECS container agent version": "1.36.1",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.36.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200108",
+          "Amazon ECS container agent version": "1.36.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.36.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20200108",
+          "Amazon ECS container agent version": "1.36.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.36.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20191212",
+          "Amazon ECS container agent version": "1.35.0",
+          "Docker version": "18.09.9-ce",
+          "ecs-initversion": "1.35.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20191114",
+          "Amazon ECS container agent version": "1.33.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.33.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20191031",
+          "Amazon ECS container agent version": "1.32.1",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.32.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20191016",
+          "Amazon ECS container agent version": "1.32.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.32.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.20191014",
+          "Amazon ECS container agent version": "1.32.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.32.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.y",
+          "Amazon ECS container agent version": "1.32.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.32.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.x",
+          "Amazon ECS container agent version": "1.31.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.31.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.w",
+          "Amazon ECS container agent version": "1.30.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.30.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.v",
+          "Amazon ECS container agent version": "1.29.1",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.29.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.u",
+          "Amazon ECS container agent version": "1.29.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.29.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.t",
+          "Amazon ECS container agent version": "1.29.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.29.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.s",
+          "Amazon ECS container agent version": "1.28.1",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.28.1-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.q",
+          "Amazon ECS container agent version": "1.28.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.28.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.p",
+          "Amazon ECS container agent version": "1.27.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.27.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.o",
+          "Amazon ECS container agent version": "1.26.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.26.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.n",
+          "Amazon ECS container agent version": "1.25.3",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.25.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.m",
+          "Amazon ECS container agent version": "1.25.2",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.25.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.l",
+          "Amazon ECS container agent version": "1.25.1",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.25.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.k",
+          "Amazon ECS container agent version": "1.25.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.25.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.j",
+          "Amazon ECS container agent version": "1.24.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.24.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.i",
+          "Amazon ECS container agent version": "1.22.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.22.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.h",
+          "Amazon ECS container agent version": "1.21.0",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.21.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.g",
+          "Amazon ECS container agent version": "1.20.3",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.20.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.f",
+          "Amazon ECS container agent version": "1.20.2",
+          "Docker version": "18.06.1-ce",
+          "ecs-initversion": "1.20.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.e",
+          "Amazon ECS container agent version": "1.20.1",
+          "Docker version": "18.03.1-ce",
+          "ecs-initversion": "1.20.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.d",
+          "Amazon ECS container agent version": "1.20.0",
+          "Docker version": "18.03.1-ce",
+          "ecs-initversion": "1.20.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.c",
+          "Amazon ECS container agent version": "1.19.1",
+          "Docker version": "18.03.1-ce",
+          "ecs-initversion": "1.19.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.b",
+          "Amazon ECS container agent version": "1.19.0",
+          "Docker version": "18.03.1-ce",
+          "ecs-initversion": "1.19.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2018.03.a",
+          "Amazon ECS container agent version": "1.18.0",
+          "Docker version": "17.12.1-ce",
+          "ecs-initversion": "1.18.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.l",
+          "Amazon ECS container agent version": "1.17.3",
+          "Docker version": "17.12.1-ce",
+          "ecs-initversion": "1.17.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.k",
+          "Amazon ECS container agent version": "1.17.2",
+          "Docker version": "17.12.0-ce",
+          "ecs-initversion": "1.17.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.j",
+          "Amazon ECS container agent version": "1.17.2",
+          "Docker version": "17.12.0-ce",
+          "ecs-initversion": "1.17.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.i",
+          "Amazon ECS container agent version": "1.17.1",
+          "Docker version": "17.09.1-ce",
+          "ecs-initversion": "1.17.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.h",
+          "Amazon ECS container agent version": "1.17.0",
+          "Docker version": "17.09.1-ce",
+          "ecs-initversion": "1.17.0-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.g",
+          "Amazon ECS container agent version": "1.16.2",
+          "Docker version": "17.09.1-ce",
+          "ecs-initversion": "1.16.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.f",
+          "Amazon ECS container agent version": "1.16.1",
+          "Docker version": "17.06.2-ce",
+          "ecs-initversion": "1.16.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.e",
+          "Amazon ECS container agent version": "1.16.1",
+          "Docker version": "17.06.2-ce",
+          "ecs-initversion": "1.16.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.d",
+          "Amazon ECS container agent version": "1.16.0",
+          "Docker version": "17.06.2-ce",
+          "ecs-initversion": "1.16.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.c",
+          "Amazon ECS container agent version": "1.15.2",
+          "Docker version": "17.06.2-ce",
+          "ecs-initversion": "1.15.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.b",
+          "Amazon ECS container agent version": "1.15.1",
+          "Docker version": "17.06.2-ce",
+          "ecs-initversion": "1.15.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.09.a",
+          "Amazon ECS container agent version": "1.15.0",
+          "Docker version": "17.06.2-ce",
+          "ecs-initversion": "1.15.0-4"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.03.g",
+          "Amazon ECS container agent version": "1.14.5",
+          "Docker version": "17.03.2-ce",
+          "ecs-initversion": "1.14.5-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.03.f",
+          "Amazon ECS container agent version": "1.14.4",
+          "Docker version": "17.03.2-ce",
+          "ecs-initversion": "1.14.4-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.03.e",
+          "Amazon ECS container agent version": "1.14.3",
+          "Docker version": "17.03.1-ce",
+          "ecs-initversion": "1.14.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.03.d",
+          "Amazon ECS container agent version": "1.14.3",
+          "Docker version": "17.03.1-ce",
+          "ecs-initversion": "1.14.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.03.c",
+          "Amazon ECS container agent version": "1.14.3",
+          "Docker version": "17.03.1-ce",
+          "ecs-initversion": "1.14.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2017.03.b",
+          "Amazon ECS container agent version": "1.14.3",
+          "Docker version": "17.03.1-ce",
+          "ecs-initversion": "1.14.3-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.09.g",
+          "Amazon ECS container agent version": "1.14.1",
+          "Docker version": "1.12.6",
+          "ecs-initversion": "1.14.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.09.f",
+          "Amazon ECS container agent version": "1.14.0",
+          "Docker version": "1.12.6",
+          "ecs-initversion": "1.14.0-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.09.e",
+          "Amazon ECS container agent version": "1.14.0",
+          "Docker version": "1.12.6",
+          "ecs-initversion": "1.14.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.09.d",
+          "Amazon ECS container agent version": "1.13.1",
+          "Docker version": "1.12.6",
+          "ecs-initversion": "1.13.1-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.09.c",
+          "Amazon ECS container agent version": "1.13.1",
+          "Docker version": "1.11.2",
+          "ecs-initversion": "1.13.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.09.b",
+          "Amazon ECS container agent version": "1.13.1",
+          "Docker version": "1.11.2",
+          "ecs-initversion": "1.13.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.09.a",
+          "Amazon ECS container agent version": "1.13.0",
+          "Docker version": "1.11.2",
+          "ecs-initversion": "1.13.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.j",
+          "Amazon ECS container agent version": "1.13.0",
+          "Docker version": "1.11.2",
+          "ecs-initversion": "1.13.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.i",
+          "Amazon ECS container agent version": "1.12.2",
+          "Docker version": "1.11.2",
+          "ecs-initversion": "1.12.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.h",
+          "Amazon ECS container agent version": "1.12.1",
+          "Docker version": "1.11.2",
+          "ecs-initversion": "1.12.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.g",
+          "Amazon ECS container agent version": "1.12.0",
+          "Docker version": "1.11.2",
+          "ecs-initversion": "1.12.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.f",
+          "Amazon ECS container agent version": "1.11.1",
+          "Docker version": "1.11.2",
+          "ecs-initversion": "1.11.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.e",
+          "Amazon ECS container agent version": "1.11.0",
+          "Docker version": "1.11.2",
+          "ecs-initversion": "1.11.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.d",
+          "Amazon ECS container agent version": "1.10.0",
+          "Docker version": "1.11.1",
+          "ecs-initversion": "1.10.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.c",
+          "Amazon ECS container agent version": "1.10.0",
+          "Docker version": "1.11.1",
+          "ecs-initversion": "1.10.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.b",
+          "Amazon ECS container agent version": "1.9.0",
+          "Docker version": "1.9.1",
+          "ecs-initversion": "1.9.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2016.03.a",
+          "Amazon ECS container agent version": "1.8.2",
+          "Docker version": "1.9.1",
+          "ecs-initversion": "1.8.2-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.09.g",
+          "Amazon ECS container agent version": "1.8.1",
+          "Docker version": "1.9.1",
+          "ecs-initversion": "1.8.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.09.f",
+          "Amazon ECS container agent version": "1.8.0",
+          "Docker version": "1.9.1",
+          "ecs-initversion": "1.8.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.09.e",
+          "Amazon ECS container agent version": "1.7.1",
+          "Docker version": "1.9.1",
+          "ecs-initversion": "1.7.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.09.d",
+          "Amazon ECS container agent version": "1.7.1",
+          "Docker version": "1.9.1",
+          "ecs-initversion": "1.7.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.09.c",
+          "Amazon ECS container agent version": "1.7.0",
+          "Docker version": "1.7.1",
+          "ecs-initversion": "1.7.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.09.b",
+          "Amazon ECS container agent version": "1.6.0",
+          "Docker version": "1.7.1",
+          "ecs-initversion": "1.6.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.09.a",
+          "Amazon ECS container agent version": "1.5.0",
+          "Docker version": "1.7.1",
+          "ecs-initversion": "1.5.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.03.g",
+          "Amazon ECS container agent version": "1.4.0",
+          "Docker version": "1.7.1",
+          "ecs-initversion": "1.4.0-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.03.f",
+          "Amazon ECS container agent version": "1.4.0",
+          "Docker version": "1.6.2",
+          "ecs-initversion": "1.4.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.03.e",
+          "Amazon ECS container agent version": "1.3.1",
+          "Docker version": "1.6.2",
+          "ecs-initversion": "1.3.1-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.03.d",
+          "Amazon ECS container agent version": "1.2.1",
+          "Docker version": "1.6.2",
+          "ecs-initversion": "1.2.0-2"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.03.c",
+          "Amazon ECS container agent version": "1.2.0",
+          "Docker version": "1.6.2",
+          "ecs-initversion": "1.2.0-1"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.03.b",
+          "Amazon ECS container agent version": "1.1.0",
+          "Docker version": "1.6.0",
+          "ecs-initversion": "1.0-3"
+        },
+        {
+          "Amazon ECS-optimized Amazon Linux AMI": "2015.03.a",
+          "Amazon ECS container agent version": "1.0.0",
+          "Docker version": "1.5.0",
+          "ecs-initversion": "1.0-1"
+        }
+      ],
+      "deprecated": [
+        "1.20.0"
+      ]
+    }
+  },
+  {
+    "code": "versions.services.ecs::memcached.node_generations",
+    "title": "ElastiCache cluster latest node version ( memcached )",
+    "node_version": {
+      "current": [
+        "cache.m6g.large",
+        "cache.m6g.xlarge",
+        "cache.m6g.2xlarge",
+        "cache.m6g.4xlarge",
+        "cache.m6g.8xlarge",
+        "cache.m6g.12xlarge",
+        "cache.m6g.16xlarge",
+        "cache.m5.large",
+        "cache.m5.xlarge",
+        "cache.m5.2xlarge",
+        "cache.m5.4xlarge",
+        "cache.m5.12xlarge",
+        "cache.m5.24xlarge",
+        "cache.m4.large",
+        "cache.m4.xlarge",
+        "cache.m4.2xlarge",
+        "cache.m4.4xlarge",
+        "cache.m4.10xlarge",
+        "cache.t4g.micro",
+        "cache.t4g.small",
+        "cache.t4g.medium",
+        "cache.t3.micro",
+        "cache.t3.small",
+        "cache.t3.medium",
+        "cache.t2.micro",
+        "cache.t2.small",
+        "cache.t2.medium",
+        "cache.r6g.large",
+        "cache.r6g.xlarge",
+        "cache.r6g.2xlarge",
+        "cache.r6g.4xlarge",
+        "cache.r6g.8xlarge",
+        "cache.r6g.12xlarge",
+        "cache.r6g.16xlarge",
+        "cache.r6g.24xlarge",
+        "cache.r5.large",
+        "cache.r5.xlarge",
+        "cache.r5.2xlarge",
+        "cache.r5.4xlarge",
+        "cache.r5.12xlarge",
+        "cache.r5.24xlarge",
+        "cache.r4.large",
+        "cache.r4.xlarge",
+        "cache.r4.2xlarge",
+        "cache.r4.4xlarge",
+        "cache.r4.8xlarge",
+        "cache.r4.16xlarge"
+      ],
+      "previous": [
+        "cache.t1.micro",
+        "cache.m1.small",
+        "cache.m1.medium",
+        "cache.m1.large",
+        "cache.m1.xlarge",
+        "cache.m3.medium",
+        "cache.m3.large",
+        "cache.m3.xlarge",
+        "cache.m3.2xlarge",
+        "cache.c1.xlarge",
+        "cache.m2.xlarge",
+        "cache.m2.2xlarge",
+        "cache.m2.4xlarge",
+        "cache.r3.large",
+        "cache.r3.xlarge",
+        "cache.r3.2xlarge",
+        "cache.r3.4xlarge",
+        "cache.r3.8xlarge"
+      ]
+    }
+  },
+  {
+    "code": "versions.services.ecs::memcached.engine_versions",
+    "title": "ElastiCache for Memcached versions",
+    "engine_version": {
+      "supported": [
+        "Memcached version 1.6.12",
+        "Memcached version 1.6.6",
+        "Memcached version 1.5.16",
+        "Memcached version 1.5.10",
+        "Memcached version 1.4.34",
+        "Memcached version 1.4.33",
+        "Memcached version 1.4.24",
+        "Memcached version 1.4.14 ",
+        "Memcached version 1.4.5"
+      ],
+      "deprecated": []
+    }
+  }
+]

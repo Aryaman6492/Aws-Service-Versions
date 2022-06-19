@@ -21,7 +21,6 @@ def agent_version():
 	if note:
 		agent_versions['deprecated'].append(re.search(r'agent versions (\d+\.\d+\.?\d*) and later', str(note)).group(1))
 
-	print(agent_versions)
 	return {
 		'code' : __name__+'.agent_version',
 		'title' : title,

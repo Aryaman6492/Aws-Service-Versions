@@ -248,7 +248,7 @@
   },
   {
     "id": "versions.services.ecs::container_amazonlinux2.agent_version",
-    "title": "Fargate Linux Platform Version",
+    "title": "Amazon Linux 2 AMI container agent versions",
     "agent_version": {
       "supported": [
         "1.61.2",
@@ -657,7 +657,7 @@
   },
   {
     "id": "versions.services.emr::datapipeline.instances",
-    "title": "ElastiCache for Redis versions",
+    "title": "EMR Latest generation of instances for datapipeline",
     "instances": {
       "current": [
         {
@@ -1088,7 +1088,7 @@
   },
   {
     "id": "versions.services.ecs::container_amazonlinux.agent_version",
-    "title": "Fargate Linux Platform Version",
+    "title": "Amazon Linux AMI container agent versions",
     "agent_version": {
       "supported": [
         "1.51.0",

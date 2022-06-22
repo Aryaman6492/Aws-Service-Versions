@@ -5,7 +5,7 @@ import re
 
 @register
 def agent_version():
-	title = 'Fargate Linux Platform Version'
+	title = 'Amazon Linux 2 AMI container agent versions'
 	url = 'https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-versions.html'
 	doc = HtmlDoc(url)
 	agent_versions = {'supported' : [], 'deprecated': []}

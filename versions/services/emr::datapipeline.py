@@ -6,7 +6,7 @@ import re
 
 @register
 def instances():
-	title = 'ElastiCache for Redis versions'
+	title = 'EMR Latest generation of instances for datapipeline'
 	url = 'https://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-emr-supported-instance-types.html'
 	doc = HtmlDoc(url)
 	instances = {'current' : [], 'previous': []}

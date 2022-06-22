@@ -2,3 +2,4 @@ requests
 lxml
 markdown
 beautifulsoup4
+html5lib

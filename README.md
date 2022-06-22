@@ -1,6 +1,8 @@
 # Aws-Service-Versions
 Automated github repository that maintains versions of certain services. Updates everyday.
 
+[![CI Service Versions and Regions](https://github.com/Aryaman6492/Aws-Service-Versions/actions/workflows/main.yml/badge.svg)](https://github.com/Aryaman6492/Aws-Service-Versions/actions/workflows/main.yml)
+
 ## List of services that are monitored
 1. Redshift clusters latest generation of nodes
 

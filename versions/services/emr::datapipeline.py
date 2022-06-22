@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from versions import register
-from versions.parser import MarkdownDoc, HtmlDoc
+from versions.parser import MarkdownDoc, HtmlDoc, clean_format
 import re
 
 
@@ -23,7 +23,7 @@ def instances():
 			if i == 0:
 				row_current[headers[i]]  = cell.get_text(strip=True)
 			else:
-				row_current[headers[i]] = list(map(str.strip, cell.get_text(strip=True).strip('|').split('|')))
+				row_current[headers[i]] = list(map(clean_format, clean_format(cell.get_text(strip=True)).strip('|').split('|')))
 
 		instances['current'].append(row_current)
 

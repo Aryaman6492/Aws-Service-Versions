@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from versions import register
-from versions.parser import MarkdownDoc, HtmlDoc
+from versions.parser import MarkdownDoc, HtmlDoc, clean_format
 import re
 
 
@@ -19,7 +19,7 @@ def node_generation():
 			cells = row.find_all('td')
 			if headers[0] not in node['current']:
 				node['current'][headers[0]] = []
-			node['current'][headers[0]].append(cells[0].get_text(strip=True))
+			node['current'][headers[0]].append(clean_format(cells[0].get_text(strip=True)))
 
 
 	header = doc.find(id='rs-upgrading-to-ra3')
@@ -33,9 +33,9 @@ def node_generation():
 		if old not in node['recommended_upgrade']:
 			node['recommended_upgrade'][old] = []
 		node['recommended_upgrade'][old].append({
-			headers[1] : cells[1].get_text(strip=True),
-			headers[2] : new,
-			headers[3] : cells[3].get_text(strip=True)
+			headers[1] : clean_format(cells[1].get_text(strip=True)),
+			headers[2] : clean_format(new),
+			headers[3] : clean_format(cells[3].get_text(strip=True))
 		})
 
 	return {

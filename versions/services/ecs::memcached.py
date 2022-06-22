@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from versions import register
-from versions.parser import MarkdownDoc, HtmlDoc
+from versions.parser import MarkdownDoc, HtmlDoc, clean_format
 import re
 
 @register
@@ -20,7 +20,7 @@ def node_generation():
 			if sibling in categories:
 				break
 			elif sibling.name == 'code':
-				node[category].append(sibling.get_text())
+				node[category].append(clean_format(sibling.get_text(strip=True)))
 			else:
 				continue
 
@@ -41,7 +41,7 @@ def engine_versions():
 	header = doc.find(id='supported-engine-versions')
 	section = header.find_next_sibling(id='inline-topiclist')
 	for version in section.find_all('li'):
-		engine['supported'].append(version.get_text())
+		engine['supported'].append(clean_format(version.get_text(strip=True)))
 
 	return {
 		'id' : __name__+'.engine_version',

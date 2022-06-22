@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from versions import register
-from versions.parser import MarkdownDoc, HtmlDoc
+from versions.parser import MarkdownDoc, HtmlDoc, clean_format
 import re
 
 @register
@@ -19,13 +19,13 @@ def instances():
 			if unwanted:
 				unwanted.decompose()
 			if i == 0:
-				row_previous[headers[i]] = cell.get_text(strip=True)
-				row_current[headers[i]]  = cell.get_text(strip=True)
+				row_previous[headers[i]] = clean_format(cell.get_text(strip=True))
+				row_current[headers[i]]  = clean_format(cell.get_text(strip=True))
 			else:
-				row_previous[headers[i]] = [_.extract().get_text(strip=True) 
+				row_previous[headers[i]] = [clean_format(_.extract().get_text(strip=True))
 						for _ in cell.find_all(class_="replaceable")]
 
-				row_current[headers[i]] = list(map(str.strip, cell.get_text(strip=True).strip('|').split('|')))
+				row_current[headers[i]] = list(map(clean_format, clean_format(cell.get_text(strip=True)).strip('|').split('|')))
 
 		instances['previous'].append(row_previous)
 		instances['current'].append(row_current)
@@ -34,7 +34,7 @@ def instances():
 	doc = HtmlDoc(url)
 
 	section = doc.find(id ='Upgrade_paths').parent
-	instances['recommended_upgrade'] = [_.get_text(strip=True) 
+	instances['recommended_upgrade'] = [clean_format(_.get_text(strip=True))
 		for _ in section.find_all('a', class_='lb-accordion-trigger')]
 
 	return {

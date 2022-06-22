@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from versions import register
-from versions.parser import MarkdownDoc, HtmlDoc
+from versions.parser import MarkdownDoc, HtmlDoc, clean_format
 import re
 
 @register
@@ -40,14 +40,14 @@ def engine_versions():
 	header = doc.find(id='supported-engine-versions')
 	section = header.find_next_sibling(id='inline-topiclist')
 	for version in section.find_all('li'):
-		engine['supported'].append(version.get_text())
+		engine['supported'].append(clean_format(version.get_text(strip=True)))
 
 	url = 'https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/deprecated-engine-versions.html'
 	doc = HtmlDoc(url)
 	table = doc.find(class_='table-contents')
-	#print(table)
+
 	headers = [header.text for header in table.find('thead').find_all('th')]
-	engine['deprecated'] = [{headers[i]: cell.get_text(strip=True).strip() for i, cell in enumerate(row.find_all('td'))}
+	engine['deprecated'] = [{headers[i]: clean_format(cell.get_text(strip=True)) for i, cell in enumerate(row.find_all('td'))}
 		for row in table.find('tbody').find_all('tr')]
 
 	return {

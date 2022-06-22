@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from versions import register
-from versions.parser import MarkdownDoc, HtmlDoc
+from versions.parser import MarkdownDoc, HtmlDoc, clean_format
 import re
 
 
@@ -20,14 +20,14 @@ def classes():
 			if unwanted:
 				unwanted.decompose()
 			if i == 0:
-				classes['current'].append(cell.get_text(strip=True))
+				classes['current'].append(clean_format(cell.get_text(strip=True)))
 
 
 	url = 'https://aws.amazon.com/rds/previous-generation/'
 	doc = HtmlDoc(url)
 
 	section = doc.find(id ='Upgrade_paths').parent
-	classes['recommended_upgrade'] = [_.get_text(strip=True) 
+	classes['recommended_upgrade'] = [clean_format(_.get_text(strip=True))
 		for _ in section.find_all('a', class_='lb-accordion-trigger')]
 
 	return {

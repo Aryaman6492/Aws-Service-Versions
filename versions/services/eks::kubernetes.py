@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from versions import register
-from versions.parser import MarkdownDoc, HtmlDoc
+from versions.parser import MarkdownDoc, HtmlDoc, clean_format
 import re
 
 @register
@@ -12,7 +12,7 @@ def versions():
 	header = doc.find(id='available-versions')
 	section = header.find_next_sibling('div',class_='itemizedlist')
 	for version in section.find_all('li'):
-		versions['supported'].append(version.get_text(strip=True))
+		versions['supported'].append(clean_format(version.get_text(strip=True)))
 
 	return {
 		'id' : __name__+'.versions',

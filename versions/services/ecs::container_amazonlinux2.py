@@ -16,9 +16,10 @@ def agent_version():
 	for row in table.find('tbody').find_all('tr'):
 		for i, cell in enumerate(row.find_all('td')):
 			if 'agent version' in headers[i]:
-				agent_versions['supported'].append(clean_format(cell.get_text(strip=True)))
+				value = clean_format(cell.get_text(strip=True))
+				if value not in agent_versions['supported']:
+					agent_versions['supported'].append(value)
 
-	agent_versions['supported'] = list(set(agent_versions['supported'])) # duplicates
 	section = header.find_next_sibling(class_="awsdocs-note awsdocs-important")
 	note = section.find(string = re.compile(r'agent versions (.+) and later have deprecated'))
 	if note:

@@ -16,6 +16,10 @@ Automated github repository that maintains versions of certain services. Updates
 
         versions.services.rds::instances.classes
 
+1. Amazon EKS Kubernetes versions
+
+	versions.services.eks::kubernetes.versions
+
 1. Fargate Windows Platform Version
     
         versions.services.ecs::fargate_windows.platform_version

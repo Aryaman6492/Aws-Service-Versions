@@ -18,7 +18,7 @@ Automated github repository that maintains versions of certain services. Updates
 
 1. Amazon EKS Kubernetes versions
 
-	versions.services.eks::kubernetes.versions
+        versions.services.eks::kubernetes.versions
 
 1. Fargate Windows Platform Version
     
@@ -40,7 +40,7 @@ Automated github repository that maintains versions of certain services. Updates
 
         versions.services.ecs::redis.engine_version
 
-1.	ElastiCache for Memcached versions
+1. ElastiCache for Memcached versions
 	
         versions.services.ecs::memcached.engine_version
 
@@ -48,7 +48,7 @@ Automated github repository that maintains versions of certain services. Updates
 
         versions.services.ecs::redis.node_generation
 
-1.  ElastiCache cluster latest node version ( memcached )
+1. ElastiCache cluster latest node version ( memcached )
     
         versions.services.ecs::memcached.node_generation
 

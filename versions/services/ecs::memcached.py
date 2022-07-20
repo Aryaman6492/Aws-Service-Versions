@@ -38,7 +38,7 @@ def engine_versions():
 	url = 'https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/supported-engine-versions.html'
 	doc = HtmlDoc(url)
 	engine = {'supported' : [], 'deprecated': []}
-	header = doc.find(id='supported-engine-versions')
+	header = doc.find(id='supported-engine-versions-mc')
 	section = header.find_next_sibling(id='inline-topiclist')
 	for version in section.find_all('li'):
 		engine['supported'].append(clean_format(version.get_text(strip=True)))

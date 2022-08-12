@@ -110,7 +110,7 @@
             "Upgrade action": "Keep existing dc2.large cluster."
           },
           {
-            "Existing number of nodes": "4-15",
+            "Existing number of nodes": "5-15",
             "Recommended new node type": "ra3.xlplus",
             "Upgrade action": "Create 3 nodes of ra3.xlplus for every 8 nodes of dc2.large1."
           },
@@ -347,6 +347,7 @@
     "title": "Amazon EKS Kubernetes versions",
     "versions": {
       "supported": [
+        "1.23.7",
         "1.22.10",
         "1.21.13",
         "1.20.15",
@@ -361,6 +362,20 @@
     "runtime": {
       "supported": [],
       "deprecated": [
+        {
+          "Name": ".NET Core 3.1",
+          "Identifier": "dotnetcore3.1",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "Jan 20, 2023",
+          "Deprecation Phase 2": "Feb 20, 2023"
+        },
+        {
+          "Name": "Node.js 12",
+          "Identifier": "nodejs12.x",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "Nov 14, 2022",
+          "Deprecation Phase 2": "Dec 14, 2022"
+        },
         {
           "Name": ".NET Core 2.1",
           "Identifier": "dotnetcore2.1",

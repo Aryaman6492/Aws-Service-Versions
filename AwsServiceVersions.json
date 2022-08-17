@@ -5,7 +5,8 @@
     "node_generation": {
       "current": {
         "RA3 node types": [
-          "ra3.xlplus",
+          "ra3.xlplus (single-node)",
+          "ra3.xlplus (multi-node)",
           "ra3.4xlarge",
           "ra3.16xlarge"
         ],
@@ -121,457 +122,6 @@
           }
         ]
       }
-    }
-  },
-  {
-    "id": "versions.services.emr::datapipeline.instances",
-    "title": "EMR Latest generation of instances for datapipeline",
-    "instances": {
-      "current": [
-        {
-          "Instance Class": "General purpose",
-          "Instance Types": [
-            "m1.small",
-            "m1.medium",
-            "m1.large",
-            "m1.xlarge",
-            "m3.xlarge",
-            "m3.2xlarge"
-          ]
-        },
-        {
-          "Instance Class": "Compute optimized",
-          "Instance Types": [
-            "c1.medium",
-            "c1.xlarge",
-            "c3.xlarge",
-            "c3.2xlarge",
-            "c3.4xlarge",
-            "c3.8xlarge",
-            "cc1.4xlarge",
-            "cc2.8xlarge",
-            "c4.large",
-            "c4.xlarge",
-            "c4.2xlarge",
-            "c4.4xlarge",
-            "c4.8xlarge",
-            "c5.xlarge",
-            "c5.9xlarge",
-            "c5.2xlarge",
-            "c5.4xlarge",
-            "c5.9xlarge",
-            "c5.18xlarge",
-            "c5d.xlarge",
-            "c5d.2xlarge",
-            "c5d.4xlarge",
-            "c5d.9xlarge",
-            "c5d.18xlarge"
-          ]
-        },
-        {
-          "Instance Class": "Memory optimized",
-          "Instance Types": [
-            "m2.xlarge",
-            "m2.2xlarge",
-            "m2.4xlarge",
-            "r3.xlarge",
-            "r3.2xlarge",
-            "r3.4xlarge",
-            "r3.8xlarge",
-            "cr1.8xlarge",
-            "m4.large",
-            "m4.xlarge",
-            "m4.2xlarge",
-            "m4.4xlarge",
-            "m4.10xlarge",
-            "m4.16large",
-            "m5.xlarge",
-            "m5.2xlarge",
-            "m5.4xlarge",
-            "m5.12xlarge",
-            "m5.24xlarge",
-            "m5d.xlarge",
-            "m5d.2xlarge",
-            "m5d.4xlarge",
-            "m5d.12xlarge",
-            "m5d.24xlarge",
-            "r4.large",
-            "r4.xlarge",
-            "r4.2xlarge",
-            "r4.4xlarge",
-            "r4.8xlarge",
-            "r4.16xlarge"
-          ]
-        },
-        {
-          "Instance Class": "Storage optimized",
-          "Instance Types": [
-            "h1.4xlarge",
-            "hs1.2xlarge",
-            "hs1.4xlarge",
-            "hs1.8xlarge",
-            "i2.xlarge",
-            "i2.2xlarge",
-            "i2.4large",
-            "i2.8xlarge",
-            "d2.xlarge",
-            "d2.2xlarge",
-            "d2.4xlarge",
-            "d2.8xlarge"
-          ]
-        },
-        {
-          "Instance Class": "Accelerated computing",
-          "Instance Types": [
-            "g2.2xlarge",
-            "cg1.4xlarge"
-          ]
-        }
-      ],
-      "previous": []
-    }
-  },
-  {
-    "id": "versions.services.ecs::fargate_linux.platform_version",
-    "title": "Fargate Linux Platform Version",
-    "platform_version": {
-      "supported": [
-        "1.4.0",
-        "1.3.0",
-        "1.2.0",
-        "1.1.0",
-        "1.0.0"
-      ],
-      "deprecated": [
-        {
-          "Platform version": "1.0.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        },
-        {
-          "Platform version": "1.1.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        },
-        {
-          "Platform version": "1.2.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        }
-      ]
-    }
-  },
-  {
-    "id": "versions.services.ecs::container_amazonlinux2.agent_version",
-    "title": "Amazon Linux 2 AMI container agent versions",
-    "agent_version": {
-      "supported": [
-        "1.61.3",
-        "1.61.2",
-        "1.61.1",
-        "1.61.0",
-        "1.60.1",
-        "1.60.0",
-        "1.59.0",
-        "1.58.0",
-        "1.57.1",
-        "1.57.0",
-        "1.56.0",
-        "1.55.5",
-        "1.55.4",
-        "1.55.3",
-        "1.55.2",
-        "1.55.1",
-        "1.55.0",
-        "1.54.1",
-        "1.54.0",
-        "1.53.1",
-        "1.53.0",
-        "1.52.2",
-        "1.52.1",
-        "1.52.0",
-        "1.51.0",
-        "1.50.3",
-        "1.50.2",
-        "1.50.1",
-        "1.50.0",
-        "1.49.0",
-        "1.48.1",
-        "1.48.0",
-        "1.47.0",
-        "1.46.0",
-        "1.45.0",
-        "1.44.4",
-        "1.44.3",
-        "1.44.2",
-        "1.44.1",
-        "1.44.0",
-        "1.43.0",
-        "1.42.0",
-        "1.41.1",
-        "1.41.0",
-        "1.40.0",
-        "1.39.0",
-        "1.38.0",
-        "1.37.0",
-        "1.36.2",
-        "1.36.1",
-        "1.36.0",
-        "1.35.0",
-        "1.33.0",
-        "1.32.1",
-        "1.32.0",
-        "1.31.0",
-        "1.30.0",
-        "1.29.1",
-        "1.29.0",
-        "1.28.1",
-        "1.28.0",
-        "1.27.0",
-        "1.26.0",
-        "1.25.3",
-        "1.25.2",
-        "1.25.1",
-        "1.25.0",
-        "1.24.0",
-        "1.22.0",
-        "1.20.3"
-      ],
-      "deprecated": [
-        "1.20.0"
-      ]
-    }
-  },
-  {
-    "id": "versions.services.eks::kubernetes.versions",
-    "title": "Amazon EKS Kubernetes versions",
-    "versions": {
-      "supported": [
-        "1.23.7",
-        "1.22.10",
-        "1.21.13",
-        "1.20.15",
-        "1.19.16"
-      ],
-      "deprecated": []
-    }
-  },
-  {
-    "id": "versions.services.lam::function.runtime",
-    "title": "Lambda latest runtime for all environments",
-    "runtime": {
-      "supported": [],
-      "deprecated": [
-        {
-          "Name": ".NET Core 3.1",
-          "Identifier": "dotnetcore3.1",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Jan 20, 2023",
-          "Deprecation Phase 2": "Feb 20, 2023"
-        },
-        {
-          "Name": "Node.js 12",
-          "Identifier": "nodejs12.x",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Nov 14, 2022",
-          "Deprecation Phase 2": "Dec 14, 2022"
-        },
-        {
-          "Name": ".NET Core 2.1",
-          "Identifier": "dotnetcore2.1",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "Jan 5, 2022",
-          "Deprecation Phase 2": "Apr 13, 2022"
-        },
-        {
-          "Name": "Python 3.6",
-          "Identifier": "python3.6",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "July 18, 2022",
-          "Deprecation Phase 2": "Aug 17, 2022"
-        },
-        {
-          "Name": "Python 2.7",
-          "Identifier": "python2.7",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "July 15, 2021",
-          "Deprecation Phase 2": "May 30, 2022"
-        },
-        {
-          "Name": "Ruby 2.5",
-          "Identifier": "ruby2.5",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "July 30, 2021",
-          "Deprecation Phase 2": "March 31, 2022"
-        },
-        {
-          "Name": "Node.js 10.x",
-          "Identifier": "nodejs10.x",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "July 30, 2021",
-          "Deprecation Phase 2": "Feb 14, 2022"
-        },
-        {
-          "Name": "Node.js 8.10",
-          "Identifier": "nodejs8.10",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "March 6, 2020"
-        },
-        {
-          "Name": "Node.js 6.10",
-          "Identifier": "nodejs6.10",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "August 12, 2019"
-        },
-        {
-          "Name": "Node.js 4.3 edge",
-          "Identifier": "nodejs4.3-edge",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "April 30, 2019"
-        },
-        {
-          "Name": "Node.js 4.3",
-          "Identifier": "nodejs4.3",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "March 6, 2020"
-        },
-        {
-          "Name": "Node.js 0.10",
-          "Identifier": "nodejs",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "October 31, 2016"
-        },
-        {
-          "Name": ".NET Core 2.0",
-          "Identifier": "dotnetcore2.0",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "May 30, 2019"
-        },
-        {
-          "Name": ".NET Core 1.0",
-          "Identifier": "dotnetcore1.0",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "July 30, 2019"
-        }
-      ]
-    }
-  },
-  {
-    "id": "versions.services.ecs::container_amazonlinux.agent_version",
-    "title": "Amazon Linux AMI container agent versions",
-    "agent_version": {
-      "supported": [
-        "1.51.0",
-        "1.50.3",
-        "1.50.2",
-        "1.50.1",
-        "1.50.0",
-        "1.49.0",
-        "1.48.1",
-        "1.48.0",
-        "1.47.0",
-        "1.46.0",
-        "1.45.0",
-        "1.44.4",
-        "1.44.3",
-        "1.44.2",
-        "1.44.1",
-        "1.44.0",
-        "1.43.0",
-        "1.42.0",
-        "1.41.1",
-        "1.41.0",
-        "1.40.0",
-        "1.39.0",
-        "1.38.0",
-        "1.37.0",
-        "1.36.2",
-        "1.36.1",
-        "1.36.0",
-        "1.35.0",
-        "1.33.0",
-        "1.32.1",
-        "1.32.0",
-        "1.31.0",
-        "1.30.0",
-        "1.29.1",
-        "1.29.0",
-        "1.28.1",
-        "1.28.0",
-        "1.27.0",
-        "1.26.0",
-        "1.25.3",
-        "1.25.2",
-        "1.25.1",
-        "1.25.0",
-        "1.24.0",
-        "1.22.0",
-        "1.21.0",
-        "1.20.3",
-        "1.20.2",
-        "1.20.1",
-        "1.20.0",
-        "1.19.1",
-        "1.19.0",
-        "1.18.0",
-        "1.17.3",
-        "1.17.2",
-        "1.17.1",
-        "1.17.0",
-        "1.16.2",
-        "1.16.1",
-        "1.16.0",
-        "1.15.2",
-        "1.15.1",
-        "1.15.0",
-        "1.14.5",
-        "1.14.4",
-        "1.14.3",
-        "1.14.1",
-        "1.14.0",
-        "1.13.1",
-        "1.13.0",
-        "1.12.2",
-        "1.12.1",
-        "1.12.0",
-        "1.11.1",
-        "1.11.0",
-        "1.10.0",
-        "1.9.0",
-        "1.8.2",
-        "1.8.1",
-        "1.8.0",
-        "1.7.1",
-        "1.7.0",
-        "1.6.0",
-        "1.5.0",
-        "1.4.0",
-        "1.3.1",
-        "1.2.1",
-        "1.2.0",
-        "1.1.0",
-        "1.0.0"
-      ],
-      "deprecated": [
-        "1.20.0"
-      ]
-    }
-  },
-  {
-    "id": "versions.services.ecs::fargate_windows.platform_version",
-    "title": "Fargate Windows Platform Version",
-    "platform_version": {
-      "supported": [
-        "1.0.0"
-      ],
-      "deprecated": []
     }
   },
   {
@@ -767,6 +317,457 @@
         "R3 to R5",
         "M1 to T2"
       ]
+    }
+  },
+  {
+    "id": "versions.services.ecs::container_amazonlinux2.agent_version",
+    "title": "Amazon Linux 2 AMI container agent versions",
+    "agent_version": {
+      "supported": [
+        "1.61.3",
+        "1.61.2",
+        "1.61.1",
+        "1.61.0",
+        "1.60.1",
+        "1.60.0",
+        "1.59.0",
+        "1.58.0",
+        "1.57.1",
+        "1.57.0",
+        "1.56.0",
+        "1.55.5",
+        "1.55.4",
+        "1.55.3",
+        "1.55.2",
+        "1.55.1",
+        "1.55.0",
+        "1.54.1",
+        "1.54.0",
+        "1.53.1",
+        "1.53.0",
+        "1.52.2",
+        "1.52.1",
+        "1.52.0",
+        "1.51.0",
+        "1.50.3",
+        "1.50.2",
+        "1.50.1",
+        "1.50.0",
+        "1.49.0",
+        "1.48.1",
+        "1.48.0",
+        "1.47.0",
+        "1.46.0",
+        "1.45.0",
+        "1.44.4",
+        "1.44.3",
+        "1.44.2",
+        "1.44.1",
+        "1.44.0",
+        "1.43.0",
+        "1.42.0",
+        "1.41.1",
+        "1.41.0",
+        "1.40.0",
+        "1.39.0",
+        "1.38.0",
+        "1.37.0",
+        "1.36.2",
+        "1.36.1",
+        "1.36.0",
+        "1.35.0",
+        "1.33.0",
+        "1.32.1",
+        "1.32.0",
+        "1.31.0",
+        "1.30.0",
+        "1.29.1",
+        "1.29.0",
+        "1.28.1",
+        "1.28.0",
+        "1.27.0",
+        "1.26.0",
+        "1.25.3",
+        "1.25.2",
+        "1.25.1",
+        "1.25.0",
+        "1.24.0",
+        "1.22.0",
+        "1.20.3"
+      ],
+      "deprecated": [
+        "1.20.0"
+      ]
+    }
+  },
+  {
+    "id": "versions.services.ecs::fargate_linux.platform_version",
+    "title": "Fargate Linux Platform Version",
+    "platform_version": {
+      "supported": [
+        "1.4.0",
+        "1.3.0",
+        "1.2.0",
+        "1.1.0",
+        "1.0.0"
+      ],
+      "deprecated": [
+        {
+          "Platform version": "1.0.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        },
+        {
+          "Platform version": "1.1.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        },
+        {
+          "Platform version": "1.2.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        }
+      ]
+    }
+  },
+  {
+    "id": "versions.services.eks::kubernetes.versions",
+    "title": "Amazon EKS Kubernetes versions",
+    "versions": {
+      "supported": [
+        "1.23.7",
+        "1.22.10",
+        "1.21.13",
+        "1.20.15",
+        "1.19.16"
+      ],
+      "deprecated": []
+    }
+  },
+  {
+    "id": "versions.services.ecs::container_amazonlinux.agent_version",
+    "title": "Amazon Linux AMI container agent versions",
+    "agent_version": {
+      "supported": [
+        "1.51.0",
+        "1.50.3",
+        "1.50.2",
+        "1.50.1",
+        "1.50.0",
+        "1.49.0",
+        "1.48.1",
+        "1.48.0",
+        "1.47.0",
+        "1.46.0",
+        "1.45.0",
+        "1.44.4",
+        "1.44.3",
+        "1.44.2",
+        "1.44.1",
+        "1.44.0",
+        "1.43.0",
+        "1.42.0",
+        "1.41.1",
+        "1.41.0",
+        "1.40.0",
+        "1.39.0",
+        "1.38.0",
+        "1.37.0",
+        "1.36.2",
+        "1.36.1",
+        "1.36.0",
+        "1.35.0",
+        "1.33.0",
+        "1.32.1",
+        "1.32.0",
+        "1.31.0",
+        "1.30.0",
+        "1.29.1",
+        "1.29.0",
+        "1.28.1",
+        "1.28.0",
+        "1.27.0",
+        "1.26.0",
+        "1.25.3",
+        "1.25.2",
+        "1.25.1",
+        "1.25.0",
+        "1.24.0",
+        "1.22.0",
+        "1.21.0",
+        "1.20.3",
+        "1.20.2",
+        "1.20.1",
+        "1.20.0",
+        "1.19.1",
+        "1.19.0",
+        "1.18.0",
+        "1.17.3",
+        "1.17.2",
+        "1.17.1",
+        "1.17.0",
+        "1.16.2",
+        "1.16.1",
+        "1.16.0",
+        "1.15.2",
+        "1.15.1",
+        "1.15.0",
+        "1.14.5",
+        "1.14.4",
+        "1.14.3",
+        "1.14.1",
+        "1.14.0",
+        "1.13.1",
+        "1.13.0",
+        "1.12.2",
+        "1.12.1",
+        "1.12.0",
+        "1.11.1",
+        "1.11.0",
+        "1.10.0",
+        "1.9.0",
+        "1.8.2",
+        "1.8.1",
+        "1.8.0",
+        "1.7.1",
+        "1.7.0",
+        "1.6.0",
+        "1.5.0",
+        "1.4.0",
+        "1.3.1",
+        "1.2.1",
+        "1.2.0",
+        "1.1.0",
+        "1.0.0"
+      ],
+      "deprecated": [
+        "1.20.0"
+      ]
+    }
+  },
+  {
+    "id": "versions.services.lam::function.runtime",
+    "title": "Lambda latest runtime for all environments",
+    "runtime": {
+      "supported": [],
+      "deprecated": [
+        {
+          "Name": ".NET Core 3.1",
+          "Identifier": "dotnetcore3.1",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "Jan 20, 2023",
+          "Deprecation Phase 2": "Feb 20, 2023"
+        },
+        {
+          "Name": "Node.js 12",
+          "Identifier": "nodejs12.x",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "Nov 14, 2022",
+          "Deprecation Phase 2": "Dec 14, 2022"
+        },
+        {
+          "Name": ".NET Core 2.1",
+          "Identifier": "dotnetcore2.1",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jan 5, 2022",
+          "Deprecation Phase 2": "Apr 13, 2022"
+        },
+        {
+          "Name": "Python 3.6",
+          "Identifier": "python3.6",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "July 18, 2022",
+          "Deprecation Phase 2": "Aug 17, 2022"
+        },
+        {
+          "Name": "Python 2.7",
+          "Identifier": "python2.7",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "July 15, 2021",
+          "Deprecation Phase 2": "May 30, 2022"
+        },
+        {
+          "Name": "Ruby 2.5",
+          "Identifier": "ruby2.5",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "July 30, 2021",
+          "Deprecation Phase 2": "March 31, 2022"
+        },
+        {
+          "Name": "Node.js 10.x",
+          "Identifier": "nodejs10.x",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "July 30, 2021",
+          "Deprecation Phase 2": "Feb 14, 2022"
+        },
+        {
+          "Name": "Node.js 8.10",
+          "Identifier": "nodejs8.10",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "March 6, 2020"
+        },
+        {
+          "Name": "Node.js 6.10",
+          "Identifier": "nodejs6.10",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "August 12, 2019"
+        },
+        {
+          "Name": "Node.js 4.3 edge",
+          "Identifier": "nodejs4.3-edge",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "April 30, 2019"
+        },
+        {
+          "Name": "Node.js 4.3",
+          "Identifier": "nodejs4.3",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "March 6, 2020"
+        },
+        {
+          "Name": "Node.js 0.10",
+          "Identifier": "nodejs",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "October 31, 2016"
+        },
+        {
+          "Name": ".NET Core 2.0",
+          "Identifier": "dotnetcore2.0",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "May 30, 2019"
+        },
+        {
+          "Name": ".NET Core 1.0",
+          "Identifier": "dotnetcore1.0",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "July 30, 2019"
+        }
+      ]
+    }
+  },
+  {
+    "id": "versions.services.ecs::fargate_windows.platform_version",
+    "title": "Fargate Windows Platform Version",
+    "platform_version": {
+      "supported": [
+        "1.0.0"
+      ],
+      "deprecated": []
+    }
+  },
+  {
+    "id": "versions.services.emr::datapipeline.instances",
+    "title": "EMR Latest generation of instances for datapipeline",
+    "instances": {
+      "current": [
+        {
+          "Instance Class": "General purpose",
+          "Instance Types": [
+            "m1.small",
+            "m1.medium",
+            "m1.large",
+            "m1.xlarge",
+            "m3.xlarge",
+            "m3.2xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Compute optimized",
+          "Instance Types": [
+            "c1.medium",
+            "c1.xlarge",
+            "c3.xlarge",
+            "c3.2xlarge",
+            "c3.4xlarge",
+            "c3.8xlarge",
+            "cc1.4xlarge",
+            "cc2.8xlarge",
+            "c4.large",
+            "c4.xlarge",
+            "c4.2xlarge",
+            "c4.4xlarge",
+            "c4.8xlarge",
+            "c5.xlarge",
+            "c5.9xlarge",
+            "c5.2xlarge",
+            "c5.4xlarge",
+            "c5.9xlarge",
+            "c5.18xlarge",
+            "c5d.xlarge",
+            "c5d.2xlarge",
+            "c5d.4xlarge",
+            "c5d.9xlarge",
+            "c5d.18xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Memory optimized",
+          "Instance Types": [
+            "m2.xlarge",
+            "m2.2xlarge",
+            "m2.4xlarge",
+            "r3.xlarge",
+            "r3.2xlarge",
+            "r3.4xlarge",
+            "r3.8xlarge",
+            "cr1.8xlarge",
+            "m4.large",
+            "m4.xlarge",
+            "m4.2xlarge",
+            "m4.4xlarge",
+            "m4.10xlarge",
+            "m4.16large",
+            "m5.xlarge",
+            "m5.2xlarge",
+            "m5.4xlarge",
+            "m5.12xlarge",
+            "m5.24xlarge",
+            "m5d.xlarge",
+            "m5d.2xlarge",
+            "m5d.4xlarge",
+            "m5d.12xlarge",
+            "m5d.24xlarge",
+            "r4.large",
+            "r4.xlarge",
+            "r4.2xlarge",
+            "r4.4xlarge",
+            "r4.8xlarge",
+            "r4.16xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Storage optimized",
+          "Instance Types": [
+            "h1.4xlarge",
+            "hs1.2xlarge",
+            "hs1.4xlarge",
+            "hs1.8xlarge",
+            "i2.xlarge",
+            "i2.2xlarge",
+            "i2.4large",
+            "i2.8xlarge",
+            "d2.xlarge",
+            "d2.2xlarge",
+            "d2.4xlarge",
+            "d2.8xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Accelerated computing",
+          "Instance Types": [
+            "g2.2xlarge",
+            "cg1.4xlarge"
+          ]
+        }
+      ],
+      "previous": []
     }
   },
   {

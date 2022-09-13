@@ -436,11 +436,11 @@
     "title": "Amazon EKS Kubernetes versions",
     "versions": {
       "supported": [
-        "1.23.7",
-        "1.22.10",
-        "1.21.13",
-        "1.20.15",
-        "1.19.16"
+        "1.23",
+        "1.22",
+        "1.21",
+        "1.20",
+        "1.19"
       ],
       "deprecated": []
     }

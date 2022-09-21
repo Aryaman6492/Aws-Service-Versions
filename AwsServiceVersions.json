@@ -552,18 +552,18 @@
       "supported": [],
       "deprecated": [
         {
-          "Name": ".NET Core 3.1",
-          "Identifier": "dotnetcore3.1",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Jan 20, 2023",
-          "Deprecation Phase 2": "Feb 20, 2023"
+          "Name": "Python 3.6",
+          "Identifier": "python3.6",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jul 18, 2022",
+          "Deprecation Phase 2": "Aug 29, 2022"
         },
         {
-          "Name": "Node.js 12",
-          "Identifier": "nodejs12.x",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Nov 14, 2022",
-          "Deprecation Phase 2": "Dec 14, 2022"
+          "Name": "Python 2.7",
+          "Identifier": "python2.7",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jul 15, 2021",
+          "Deprecation Phase 2": "May 30, 2022"
         },
         {
           "Name": ".NET Core 2.1",
@@ -573,31 +573,17 @@
           "Deprecation Phase 2": "Apr 13, 2022"
         },
         {
-          "Name": "Python 3.6",
-          "Identifier": "python3.6",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "July 18, 2022",
-          "Deprecation Phase 2": "Aug 29, 2022"
-        },
-        {
-          "Name": "Python 2.7",
-          "Identifier": "python2.7",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "July 15, 2021",
-          "Deprecation Phase 2": "May 30, 2022"
-        },
-        {
           "Name": "Ruby 2.5",
           "Identifier": "ruby2.5",
           "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "July 30, 2021",
-          "Deprecation Phase 2": "March 31, 2022"
+          "Deprecation Phase 1": "Jul 30, 2021",
+          "Deprecation Phase 2": "Mar 31, 2022"
         },
         {
-          "Name": "Node.js 10.x",
+          "Name": "Node.js 10",
           "Identifier": "nodejs10.x",
           "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "July 30, 2021",
+          "Deprecation Phase 1": "Jul 30, 2021",
           "Deprecation Phase 2": "Feb 14, 2022"
         },
         {
@@ -605,35 +591,28 @@
           "Identifier": "nodejs8.10",
           "Operating system": "Amazon Linux",
           "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "March 6, 2020"
-        },
-        {
-          "Name": "Node.js 6.10",
-          "Identifier": "nodejs6.10",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "August 12, 2019"
-        },
-        {
-          "Name": "Node.js 4.3 edge",
-          "Identifier": "nodejs4.3-edge",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "April 30, 2019"
+          "Deprecation Phase 2": "Mar 6, 2020"
         },
         {
           "Name": "Node.js 4.3",
           "Identifier": "nodejs4.3",
           "Operating system": "Amazon Linux",
           "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "March 6, 2020"
+          "Deprecation Phase 2": "Mar 5, 2020"
         },
         {
-          "Name": "Node.js 0.10",
-          "Identifier": "nodejs",
+          "Name": "Node.js 6.10",
+          "Identifier": "nodejs6.10",
           "Operating system": "Amazon Linux",
           "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "October 31, 2016"
+          "Deprecation Phase 2": "Aug 12, 2019"
+        },
+        {
+          "Name": ".NET Core 1.0",
+          "Identifier": "dotnetcore1.0",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Jul 30, 2019"
         },
         {
           "Name": ".NET Core 2.0",
@@ -643,11 +622,18 @@
           "Deprecation Phase 2": "May 30, 2019"
         },
         {
-          "Name": ".NET Core 1.0",
-          "Identifier": "dotnetcore1.0",
+          "Name": "Node.js 4.3 edge",
+          "Identifier": "nodejs4.3-edge",
           "Operating system": "Amazon Linux",
           "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "July 30, 2019"
+          "Deprecation Phase 2": "Apr 30, 2019"
+        },
+        {
+          "Name": "Node.js 0.10",
+          "Identifier": "nodejs",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Oct 31, 2016"
         }
       ]
     }

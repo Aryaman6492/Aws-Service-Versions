@@ -1053,25 +1053,11 @@
       "supported": [],
       "deprecated": [
         {
-          "Name": ".NET Core 3.1",
-          "Identifier": "dotnetcore3.1",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Jan 20, 2023",
-          "Deprecation Phase 2": "Feb 20, 2023"
-        },
-        {
-          "Name": "Node.js 12",
-          "Identifier": "nodejs12.x",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Nov 14, 2022",
-          "Deprecation Phase 2": "Dec 14, 2022"
-        },
-        {
           "Name": "Python 3.6",
           "Identifier": "python3.6",
           "Operating system": "Amazon Linux",
           "Deprecation Phase 1": "Jul 18, 2022",
-          "Deprecation Phase 2": "Aug 29, 2022"
+          "Deprecation Phase 2": "Aug 17, 2022"
         },
         {
           "Name": "Python 2.7",

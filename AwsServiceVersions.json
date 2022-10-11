@@ -3714,7 +3714,7 @@
           "Identifier": "python3.6",
           "Operating system": "Amazon Linux",
           "Deprecation Phase 1": "Jul 18, 2022",
-          "Deprecation Phase 2": "Aug 17, 2022"
+          "Deprecation Phase 2": "Aug 29, 2022"
         },
         {
           "Name": "Python 2.7",

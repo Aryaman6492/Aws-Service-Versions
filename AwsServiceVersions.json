@@ -3057,6 +3057,7 @@
     "title": "ElastiCache for Redis versions",
     "engine_version": {
       "supported": [
+        "Redis 7.0 (enhanced)",
         "Redis 6.2 (enhanced)",
         "Redis 6.0 (enhanced)",
         "Redis 5.0.6 (enhanced)",
@@ -3314,6 +3315,7 @@
     "title": "Amazon Linux 2 AMI container agent versions",
     "agent_version": {
       "supported": [
+        "1.65.1",
         "1.64.0",
         "1.63.1",
         "1.62.2",

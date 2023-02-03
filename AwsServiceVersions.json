@@ -220,6 +220,7 @@
     "title": "Amazon Linux 2 AMI container agent versions",
     "agent_version": {
       "supported": [
+        "1.68.1",
         "1.68.0",
         "1.67.2",
         "1.67.1",

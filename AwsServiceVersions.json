@@ -1213,6 +1213,54 @@
           ]
         },
         {
+          "Instance class": "c6in.xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c6in.2xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c6in.4xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c6in.8xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c6in.12xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c6in.16xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c6in.24xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c6in.32xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "c7g.xlarge",
           "Instance type": [
             "emr-6.7.0"
@@ -1309,6 +1357,54 @@
           "Instance class": "g4dn.16xlarge",
           "Instance type": [
             "emr-5.30.0, emr-6.0.0"
+          ]
+        },
+        {
+          "Instance class": "g5.xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "g5.2xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "g5.4xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "g5.8xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "g5.12xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "g5.16xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "g5.24xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "g5.48xlarge",
+          "Instance type": [
+            "emr-6.9.0"
           ]
         },
         {
@@ -1904,6 +2000,102 @@
         },
         {
           "Instance class": "x1.32xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x1e.xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x1e.2xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x1e.4xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x1e.8xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x1e.16xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x1e.32xlarge",
+          "Instance type": [
+            "emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x2idn.16xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x2idn.24xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x2idn.32xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x2iedn.xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x2iedn.2xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x2iedn.4xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x2iedn.8xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x2iedn.16xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x2iedn.24xlarge",
+          "Instance type": [
+            "emr-6.9.0"
+          ]
+        },
+        {
+          "Instance class": "x2iedn.32xlarge",
           "Instance type": [
             "emr-6.9.0"
           ]
@@ -2794,6 +2986,38 @@
           "Instance type": []
         },
         {
+          "Instance class": "c6in.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6in.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6in.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6in.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6in.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6in.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6in.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6in.32xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "c7g.xlarge",
           "Instance type": []
         },
@@ -2856,6 +3080,38 @@
         },
         {
           "Instance class": "g4dn.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "g5.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "g5.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "g5.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "g5.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "g5.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "g5.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "g5.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "g5.48xlarge",
           "Instance type": []
         },
         {
@@ -3253,6 +3509,70 @@
         },
         {
           "Instance class": "x1.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x1e.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x1e.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x1e.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x1e.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x1e.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x1e.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2idn.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2idn.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2idn.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2iedn.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2iedn.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2iedn.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2iedn.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2iedn.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2iedn.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2iedn.32xlarge",
           "Instance type": []
         },
         {
@@ -3990,6 +4310,7 @@
     "title": "Amazon Linux 2 AMI container agent versions",
     "agent_version": {
       "supported": [
+        "1.70.1",
         "1.70.0",
         "1.69.0",
         "1.68.2",

@@ -3920,6 +3920,14 @@
     "title": "RDS Instances latest generation of instance classes",
     "classes": {
       "current": [
+        "db.m7g - general-purpose instance classes powered by AWS Graviton3 processors",
+        "db.m7g.16xlarge",
+        "db.m7g.12xlarge",
+        "db.m7g.8xlarge",
+        "db.m7g.4xlarge",
+        "db.m7g.2xlarge",
+        "db.m7g.xlarge",
+        "db.m7g.large",
         "db.m6g - general-purpose instance classes powered by AWS Graviton2 processors",
         "db.m6g.16xlarge",
         "db.m6g.12xlarge",
@@ -4019,6 +4027,14 @@
         "db.x1 - memory-optimized instance classes",
         "db.x1.32xlarge",
         "db.x1.16xlarge",
+        "db.r7g - general-purpose instance classes powered by AWS Graviton3 processors",
+        "db.r7g.16xlarge",
+        "db.r7g.12xlarge",
+        "db.r7g.8xlarge",
+        "db.r7g.4xlarge",
+        "db.r7g.2xlarge",
+        "db.r7g.xlarge",
+        "db.r7g.large",
         "db.r6g - memory-optimized instance classes powered by AWS Graviton2 processors",
         "db.r6g.16xlarge",
         "db.r6g.12xlarge",
@@ -4297,6 +4313,7 @@
     "title": "Amazon EKS Kubernetes versions",
     "versions": {
       "supported": [
+        "1.26",
         "1.25",
         "1.24",
         "1.23",

@@ -4178,16 +4178,8 @@
         "Redis 5.0.3 (enhanced)",
         "Redis 5.0.0 (enhanced)",
         "Redis 4.0.10 (enhanced)",
-        "Redis 3.2.10 (enhanced)",
-        "Redis 3.2.6 (enhanced)",
-        "Redis 3.2.4 (enhanced)",
-        "Redis 2.8.24 (enhanced)",
-        "Redis 2.8.23 (enhanced)",
-        "Redis 2.8.22 (enhanced)",
-        "Redis 2.8.21",
-        "Redis 2.8.19",
-        "Redis 2.8.6",
-        "Redis 2.6.13"
+        "Scheduled End of Life (EOL) versions (3.x)",
+        "Past End of Life (EOL) versions 2.x"
       ],
       "deprecated": [
         {
@@ -4195,12 +4187,6 @@
           "Source Minor Versions": "3.2.4, 3.2.6 and 3.2.10",
           "Recommended Upgrade Target": "Version 6.2 or higherNoteFor US-ISO-EAST-1, US-ISO-WEST-1, and US-ISOB-EAST-1 Regions, we recommend 5.0.6 or higher.",
           "EOL Date": "July 31, 2023"
-        },
-        {
-          "Source Major Version": "Version 2",
-          "Source Minor Versions": "2.8.24, 2.8.23, 2.8.22, 2.8.21, 2.8.19, 2.8.12, 2.8.6, 2.6.13",
-          "Recommended Upgrade Target": "Version 6.2 or higherNoteFor US-ISO-EAST-1, US-ISO-WEST-1, and US-ISOB-EAST-1 Regions, we recommend 5.0.6 or higher.",
-          "EOL Date": "January 13, 2023"
         }
       ]
     }

@@ -28,13 +28,9 @@ Automated github repository that maintains versions of certain services. Updates
 
         versions.services.ecs::fargate_linux.platform_version
 
-1. Amazon Linux AMI container agent versions
+1. Amazon Linux 2 and 2023 AMI container agent versions
 	
         versions.services.ecs::container_amazonlinux.agent_version
-
-1. Amazon Linux 2 AMI container agent versions
-	
-        versions.services.ecs::container_amazonlinux2.agent_version
 
 1. ElastiCache for Redis versions
 

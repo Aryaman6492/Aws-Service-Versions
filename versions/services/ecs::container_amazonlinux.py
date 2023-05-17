@@ -3,14 +3,13 @@ from versions import register
 from versions.parser import MarkdownDoc, HtmlDoc, clean_format
 import re
 
-@register
 def agent_version():
-	title = 'Amazon Linux AMI container agent versions'
-	url = 'https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-versions.html'
+	title = 'Amazon Linux 2 and 2023 AMI container agent versions'
+	url = 'https://github.com/aws/amazon-ecs-agent/tags'
 	doc = HtmlDoc(url)
 	agent_versions = {'supported' : [], 'deprecated': []}
 
-	header = doc.find(id='ecs-optimized-ami-agent-versions')
+	header = doc.find(id='al2-optimized-ami-agent-versions')
 	table = header.find_next_sibling(class_='table-container')
 	headers = [header.get_text(strip=True) for header in table.find('thead').find_all('th')]
 	for row in table.find('tbody').find_all('tr'):
@@ -30,4 +29,3 @@ def agent_version():
 		'title' : title,
 		'agent_version' : agent_versions
 	}
- 

@@ -1,291 +1,31 @@
 [
   {
-    "id": "versions.services.ecs::container_amazonlinux.agent_version",
-    "title": "Amazon Linux AMI container agent versions",
-    "agent_version": {
+    "id": "versions.services.ecs::fargate_linux.platform_version",
+    "title": "Fargate Linux Platform Version",
+    "platform_version": {
       "supported": [
-        "1.51.0",
-        "1.50.3",
-        "1.50.2",
-        "1.50.1",
-        "1.50.0",
-        "1.49.0",
-        "1.48.1",
-        "1.48.0",
-        "1.47.0",
-        "1.46.0",
-        "1.45.0",
-        "1.44.4",
-        "1.44.3",
-        "1.44.2",
-        "1.44.1",
-        "1.44.0",
-        "1.43.0",
-        "1.42.0",
-        "1.41.1",
-        "1.41.0",
-        "1.40.0",
-        "1.39.0",
-        "1.38.0",
-        "1.37.0",
-        "1.36.2",
-        "1.36.1",
-        "1.36.0",
-        "1.35.0",
-        "1.33.0",
-        "1.32.1",
-        "1.32.0",
-        "1.31.0",
-        "1.30.0",
-        "1.29.1",
-        "1.29.0",
-        "1.28.1",
-        "1.28.0",
-        "1.27.0",
-        "1.26.0",
-        "1.25.3",
-        "1.25.2",
-        "1.25.1",
-        "1.25.0",
-        "1.24.0",
-        "1.22.0",
-        "1.21.0",
-        "1.20.3",
-        "1.20.2",
-        "1.20.1",
-        "1.20.0",
-        "1.19.1",
-        "1.19.0",
-        "1.18.0",
-        "1.17.3",
-        "1.17.2",
-        "1.17.1",
-        "1.17.0",
-        "1.16.2",
-        "1.16.1",
-        "1.16.0",
-        "1.15.2",
-        "1.15.1",
-        "1.15.0",
-        "1.14.5",
-        "1.14.4",
-        "1.14.3",
-        "1.14.1",
-        "1.14.0",
-        "1.13.1",
-        "1.13.0",
-        "1.12.2",
-        "1.12.1",
-        "1.12.0",
-        "1.11.1",
-        "1.11.0",
-        "1.10.0",
-        "1.9.0",
-        "1.8.2",
-        "1.8.1",
-        "1.8.0",
-        "1.7.1",
-        "1.7.0",
-        "1.6.0",
-        "1.5.0",
         "1.4.0",
-        "1.3.1",
-        "1.2.1",
+        "1.3.0",
         "1.2.0",
         "1.1.0",
         "1.0.0"
       ],
       "deprecated": [
-        "1.20.0"
-      ]
-    }
-  },
-  {
-    "id": "versions.services.lam::function.runtime",
-    "title": "Lambda latest runtime for all environments",
-    "runtime": {
-      "supported": [],
-      "deprecated": [
         {
-          "Name": "Python 3.6",
-          "Identifier": "python3.6",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "Jul 18, 2022",
-          "Deprecation Phase 2": "Aug 29, 2022"
+          "Platform version": "1.0.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
         },
         {
-          "Name": "Python 2.7",
-          "Identifier": "python2.7",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "Jul 15, 2021",
-          "Deprecation Phase 2": "May 30, 2022"
+          "Platform version": "1.1.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
         },
         {
-          "Name": ".NET Core 2.1",
-          "Identifier": "dotnetcore2.1",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "Jan 5, 2022",
-          "Deprecation Phase 2": "Apr 13, 2022"
-        },
-        {
-          "Name": "Ruby 2.5",
-          "Identifier": "ruby2.5",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "Jul 30, 2021",
-          "Deprecation Phase 2": "Mar 31, 2022"
-        },
-        {
-          "Name": "Node.js 10",
-          "Identifier": "nodejs10.x",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Jul 30, 2021",
-          "Deprecation Phase 2": "Feb 14, 2022"
-        },
-        {
-          "Name": "Node.js 8.10",
-          "Identifier": "nodejs8.10",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Mar 6, 2020"
-        },
-        {
-          "Name": "Node.js 4.3",
-          "Identifier": "nodejs4.3",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Mar 5, 2020"
-        },
-        {
-          "Name": "Node.js 6.10",
-          "Identifier": "nodejs6.10",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Aug 12, 2019"
-        },
-        {
-          "Name": ".NET Core 1.0",
-          "Identifier": "dotnetcore1.0",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Jul 30, 2019"
-        },
-        {
-          "Name": ".NET Core 2.0",
-          "Identifier": "dotnetcore2.0",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "May 30, 2019"
-        },
-        {
-          "Name": "Node.js 4.3 edge",
-          "Identifier": "nodejs4.3-edge",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Apr 30, 2019"
-        },
-        {
-          "Name": "Node.js 0.10",
-          "Identifier": "nodejs",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Oct 31, 2016"
+          "Platform version": "1.2.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
         }
-      ]
-    }
-  },
-  {
-    "id": "versions.services.ecs::container_amazonlinux2.agent_version",
-    "title": "Amazon Linux 2 AMI container agent versions",
-    "agent_version": {
-      "supported": [
-        "1.71.0",
-        "1.70.2",
-        "1.70.1",
-        "1.70.0",
-        "1.69.0",
-        "1.68.2",
-        "1.68.1",
-        "1.68.0",
-        "1.67.2",
-        "1.67.1",
-        "1.66.2",
-        "1.65.1",
-        "1.64.0",
-        "1.63.1",
-        "1.62.2",
-        "1.61.3",
-        "1.61.2",
-        "1.61.1",
-        "1.61.0",
-        "1.60.1",
-        "1.60.0",
-        "1.59.0",
-        "1.58.0",
-        "1.57.1",
-        "1.57.0",
-        "1.56.0",
-        "1.55.5",
-        "1.55.4",
-        "1.55.3",
-        "1.55.2",
-        "1.55.1",
-        "1.55.0",
-        "1.54.1",
-        "1.54.0",
-        "1.53.1",
-        "1.53.0",
-        "1.52.2",
-        "1.52.1",
-        "1.52.0",
-        "1.51.0",
-        "1.50.3",
-        "1.50.2",
-        "1.50.1",
-        "1.50.0",
-        "1.49.0",
-        "1.48.1",
-        "1.48.0",
-        "1.47.0",
-        "1.46.0",
-        "1.45.0",
-        "1.44.4",
-        "1.44.3",
-        "1.44.2",
-        "1.44.1",
-        "1.44.0",
-        "1.43.0",
-        "1.42.0",
-        "1.41.1",
-        "1.41.0",
-        "1.40.0",
-        "1.39.0",
-        "1.38.0",
-        "1.37.0",
-        "1.36.2",
-        "1.36.1",
-        "1.36.0",
-        "1.35.0",
-        "1.33.0",
-        "1.32.1",
-        "1.32.0",
-        "1.31.0",
-        "1.30.0",
-        "1.29.1",
-        "1.29.0",
-        "1.28.1",
-        "1.28.0",
-        "1.27.0",
-        "1.26.0",
-        "1.25.3",
-        "1.25.2",
-        "1.25.1",
-        "1.25.0",
-        "1.24.0",
-        "1.22.0",
-        "1.20.3"
-      ],
-      "deprecated": [
-        "1.20.0"
       ]
     }
   },
@@ -398,33 +138,13 @@
     }
   },
   {
-    "id": "versions.services.ecs::fargate_linux.platform_version",
-    "title": "Fargate Linux Platform Version",
+    "id": "versions.services.ecs::fargate_windows.platform_version",
+    "title": "Fargate Windows Platform Version",
     "platform_version": {
       "supported": [
-        "1.4.0",
-        "1.3.0",
-        "1.2.0",
-        "1.1.0",
         "1.0.0"
       ],
-      "deprecated": [
-        {
-          "Platform version": "1.0.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        },
-        {
-          "Platform version": "1.1.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        },
-        {
-          "Platform version": "1.2.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        }
-      ]
+      "deprecated": []
     }
   },
   {
@@ -439,141 +159,6 @@
         "1.22"
       ],
       "deprecated": []
-    }
-  },
-  {
-    "id": "versions.services.ecs::fargate_windows.platform_version",
-    "title": "Fargate Windows Platform Version",
-    "platform_version": {
-      "supported": [
-        "1.0.0"
-      ],
-      "deprecated": []
-    }
-  },
-  {
-    "id": "versions.services.red::cluster.node_generation",
-    "title": "Redshift clusters latest generation of nodes",
-    "node_generation": {
-      "current": {
-        "RA3 node types": [
-          "ra3.xlplus (single-node)",
-          "ra3.xlplus (multi-node)",
-          "ra3.4xlarge",
-          "ra3.16xlarge"
-        ],
-        "Dense storage node types": [
-          "ds2.xlarge",
-          "ds2.8xlarge"
-        ],
-        "Dense compute node types": [
-          "dc2.large",
-          "dc2.8xlarge",
-          "dc1.large1",
-          "dc1.8xlarge1"
-        ]
-      },
-      "previous": {},
-      "recommended_upgrade": {
-        "ds2.xlarge": [
-          {
-            "Existing number of nodes": "1",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 1-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "2",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "3",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "4",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 3-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "5",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "6",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "7",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 5-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "8",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create a 2-node ra3.4xlarge cluster1."
-          },
-          {
-            "Existing number of nodes": "9",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
-          },
-          {
-            "Existing number of nodes": "10",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
-          },
-          {
-            "Existing number of nodes": "11-128",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create 1 node of ra3.4xlarge for every 4 nodes of ds2.xlarge1."
-          }
-        ],
-        "ds2.8xlarge": [
-          {
-            "Existing number of nodes": "2-15",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of ds2.8xlarge1."
-          },
-          {
-            "Existing number of nodes": "16-128",
-            "Recommended new node type": "ra3.16xlarge",
-            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of ds2.8xlarge1."
-          }
-        ],
-        "dc2.8xlarge": [
-          {
-            "Existing number of nodes": "2-15",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of dc2.8xlarge1."
-          },
-          {
-            "Existing number of nodes": "16-128",
-            "Recommended new node type": "ra3.16xlarge",
-            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of dc2.8xlarge1."
-          }
-        ],
-        "dc2.large": [
-          {
-            "Existing number of nodes": "1-4",
-            "Recommended new node type": "none",
-            "Upgrade action": "Keep existing dc2.large cluster."
-          },
-          {
-            "Existing number of nodes": "5-15",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create 3 nodes of ra3.xlplus for every 8 nodes of dc2.large1."
-          },
-          {
-            "Existing number of nodes": "16-32",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create 1 node of ra3.4xlarge for every 8 nodes of dc2.large1,2."
-          }
-        ]
-      }
     }
   },
   {
@@ -905,55 +490,55 @@
         {
           "Instance class": "m6a.xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "m6a.2xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "m6a.4xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "m6a.8xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "m6a.12xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "m6a.16xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "m6a.24xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "m6a.32xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "m6a.48xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
@@ -1074,6 +659,42 @@
           "Instance class": "m6i.32xlarge",
           "Instance type": [
             "emr-5.35.0, emr-6.6.0"
+          ]
+        },
+        {
+          "Instance class": "m7g.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7g.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7g.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7g.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7g.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7g.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
@@ -1466,85 +1087,85 @@
         {
           "Instance class": "c6in.xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "c6in.2xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "c6in.4xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "c6in.8xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "c6in.12xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "c6in.16xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "c6in.24xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "c6in.32xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "c7g.xlarge",
           "Instance type": [
-            "emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0"
           ]
         },
         {
           "Instance class": "c7g.2xlarge",
           "Instance type": [
-            "emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0"
           ]
         },
         {
           "Instance class": "c7g.4xlarge",
           "Instance type": [
-            "emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0"
           ]
         },
         {
           "Instance class": "c7g.8xlarge",
           "Instance type": [
-            "emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0"
           ]
         },
         {
           "Instance class": "c7g.12xlarge",
           "Instance type": [
-            "emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0"
           ]
         },
         {
           "Instance class": "c7g.16xlarge",
           "Instance type": [
-            "emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0"
           ]
         },
         {
@@ -1613,49 +1234,49 @@
         {
           "Instance class": "g5.xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "g5.2xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "g5.4xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "g5.8xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "g5.12xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "g5.16xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "g5.24xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "g5.48xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
@@ -2024,55 +1645,55 @@
         {
           "Instance class": "r6a.xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6a.2xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6a.4xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6a.8xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6a.12xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6a.16xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6a.24xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6a.32xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6a.48xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
@@ -2198,157 +1819,229 @@
         {
           "Instance class": "r6id.xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6id.2xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6id.4xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6id.8xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6id.12xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6id.16xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6id.24xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "r6id.32xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "r7g.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7g.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7g.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7g.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7g.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7g.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "x1.16xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x1.32xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x1e.xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "x1e.2xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "x1e.4xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "x1e.8xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "x1e.16xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "x1e.32xlarge",
           "Instance type": [
-            "emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x2gd.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x2gd.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x2gd.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x2gd.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x2gd.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "x2gd.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
           "Instance class": "x2idn.16xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x2idn.24xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x2idn.32xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x2iedn.xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x2iedn.2xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x2iedn.4xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x2iedn.8xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x2iedn.16xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x2iedn.24xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
           "Instance class": "x2iedn.32xlarge",
           "Instance type": [
-            "emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0"
           ]
         },
         {
@@ -2561,37 +2254,37 @@
         {
           "Instance class": "i4i.xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "i4i.2xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "i4i.4xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "i4i.8xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "i4i.16xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
           "Instance class": "i4i.32xlarge",
           "Instance type": [
-            "emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
@@ -2977,6 +2670,30 @@
         },
         {
           "Instance class": "m6i.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7g.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7g.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7g.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7g.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7g.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7g.16xlarge",
           "Instance type": []
         },
         {
@@ -3755,6 +3472,30 @@
           "Instance type": []
         },
         {
+          "Instance class": "r7g.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7g.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7g.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7g.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7g.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7g.16xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "x1.16xlarge",
           "Instance type": []
         },
@@ -3784,6 +3525,30 @@
         },
         {
           "Instance class": "x1e.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2gd.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2gd.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2gd.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2gd.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2gd.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "x2gd.16xlarge",
           "Instance type": []
         },
         {
@@ -4036,6 +3801,224 @@
     }
   },
   {
+    "id": "versions.services.red::cluster.node_generation",
+    "title": "Redshift clusters latest generation of nodes",
+    "node_generation": {
+      "current": {
+        "RA3 node types": [
+          "ra3.xlplus (single-node)",
+          "ra3.xlplus (multi-node)",
+          "ra3.4xlarge",
+          "ra3.16xlarge"
+        ],
+        "Dense storage node types": [
+          "ds2.xlarge",
+          "ds2.8xlarge"
+        ],
+        "Dense compute node types": [
+          "dc2.large",
+          "dc2.8xlarge",
+          "dc1.large1",
+          "dc1.8xlarge1"
+        ]
+      },
+      "previous": {},
+      "recommended_upgrade": {
+        "ds2.xlarge": [
+          {
+            "Existing number of nodes": "1",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 1-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "2",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "3",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "4",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 3-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "5",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "6",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "7",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 5-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "8",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create a 2-node ra3.4xlarge cluster1."
+          },
+          {
+            "Existing number of nodes": "9",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
+          },
+          {
+            "Existing number of nodes": "10",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
+          },
+          {
+            "Existing number of nodes": "11-128",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 1 node of ra3.4xlarge for every 4 nodes of ds2.xlarge1."
+          }
+        ],
+        "ds2.8xlarge": [
+          {
+            "Existing number of nodes": "2-15",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of ds2.8xlarge1."
+          },
+          {
+            "Existing number of nodes": "16-128",
+            "Recommended new node type": "ra3.16xlarge",
+            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of ds2.8xlarge1."
+          }
+        ],
+        "dc2.8xlarge": [
+          {
+            "Existing number of nodes": "2-15",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of dc2.8xlarge1."
+          },
+          {
+            "Existing number of nodes": "16-128",
+            "Recommended new node type": "ra3.16xlarge",
+            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of dc2.8xlarge1."
+          }
+        ],
+        "dc2.large": [
+          {
+            "Existing number of nodes": "1-4",
+            "Recommended new node type": "none",
+            "Upgrade action": "Keep existing dc2.large cluster."
+          },
+          {
+            "Existing number of nodes": "5-15",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create 3 nodes of ra3.xlplus for every 8 nodes of dc2.large1."
+          },
+          {
+            "Existing number of nodes": "16-32",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 1 node of ra3.4xlarge for every 8 nodes of dc2.large1,2."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "versions.services.ecs::memcached.node_generation",
+    "title": "ElastiCache cluster latest node version ( memcached )",
+    "node_generation": {
+      "current": [
+        "cache.m6g.large",
+        "cache.m6g.xlarge",
+        "cache.m6g.2xlarge",
+        "cache.m6g.4xlarge",
+        "cache.m6g.8xlarge",
+        "cache.m6g.12xlarge",
+        "cache.m6g.16xlarge",
+        "cache.m5.large",
+        "cache.m5.xlarge",
+        "cache.m5.2xlarge",
+        "cache.m5.4xlarge",
+        "cache.m5.12xlarge",
+        "cache.m5.24xlarge",
+        "cache.m4.large",
+        "cache.m4.xlarge",
+        "cache.m4.2xlarge",
+        "cache.m4.4xlarge",
+        "cache.m4.10xlarge",
+        "cache.t4g.micro",
+        "cache.t4g.small",
+        "cache.t4g.medium",
+        "cache.t3.micro",
+        "cache.t3.small",
+        "cache.t3.medium",
+        "cache.t2.micro",
+        "cache.t2.small",
+        "cache.t2.medium",
+        "cache.r6g.large",
+        "cache.r6g.xlarge",
+        "cache.r6g.2xlarge",
+        "cache.r6g.4xlarge",
+        "cache.r6g.8xlarge",
+        "cache.r6g.12xlarge",
+        "cache.r6g.16xlarge",
+        "cache.r5.large",
+        "cache.r5.xlarge",
+        "cache.r5.2xlarge",
+        "cache.r5.4xlarge",
+        "cache.r5.12xlarge",
+        "cache.r5.24xlarge",
+        "cache.r4.large",
+        "cache.r4.xlarge",
+        "cache.r4.2xlarge",
+        "cache.r4.4xlarge",
+        "cache.r4.8xlarge",
+        "cache.r4.16xlarge"
+      ],
+      "previous": [
+        "cache.t1.micro",
+        "cache.m1.small",
+        "cache.m1.medium",
+        "cache.m1.large",
+        "cache.m1.xlarge",
+        "cache.m3.medium",
+        "cache.m3.large",
+        "cache.m3.xlarge",
+        "cache.m3.2xlarge",
+        "cache.c1.xlarge",
+        "cache.m2.xlarge",
+        "cache.m2.2xlarge",
+        "cache.m2.4xlarge",
+        "cache.r3.large",
+        "cache.r3.xlarge",
+        "cache.r3.2xlarge",
+        "cache.r3.4xlarge",
+        "cache.r3.8xlarge"
+      ]
+    }
+  },
+  {
+    "id": "versions.services.ecs::memcached.engine_version",
+    "title": "ElastiCache for Memcached versions",
+    "engine_version": {
+      "supported": [
+        "Memcached version 1.6.17",
+        "Memcached version 1.6.12",
+        "Memcached version 1.6.6",
+        "Memcached version 1.5.16",
+        "Memcached version 1.5.10",
+        "Memcached version 1.4.34",
+        "Memcached version 1.4.33",
+        "Memcached version 1.4.24",
+        "Memcached version 1.4.14",
+        "Memcached version 1.4.5"
+      ],
+      "deprecated": []
+    }
+  },
+  {
     "id": "versions.services.rds::instances.classes",
     "title": "RDS Instances latest generation of instance classes",
     "classes": {
@@ -4147,7 +4130,7 @@
         "db.x1 - memory-optimized instance classes",
         "db.x1.32xlarge",
         "db.x1.16xlarge",
-        "db.r7g - general-purpose instance classes powered by AWS Graviton3 processors",
+        "db.r7g - memory-optimized instance classes powered by AWS Graviton3 processors",
         "db.r7g.16xlarge",
         "db.r7g.12xlarge",
         "db.r7g.8xlarge",
@@ -4277,96 +4260,96 @@
     }
   },
   {
-    "id": "versions.services.ecs::memcached.node_generation",
-    "title": "ElastiCache cluster latest node version ( memcached )",
-    "node_generation": {
-      "current": [
-        "cache.m6g.large",
-        "cache.m6g.xlarge",
-        "cache.m6g.2xlarge",
-        "cache.m6g.4xlarge",
-        "cache.m6g.8xlarge",
-        "cache.m6g.12xlarge",
-        "cache.m6g.16xlarge",
-        "cache.m5.large",
-        "cache.m5.xlarge",
-        "cache.m5.2xlarge",
-        "cache.m5.4xlarge",
-        "cache.m5.12xlarge",
-        "cache.m5.24xlarge",
-        "cache.m4.large",
-        "cache.m4.xlarge",
-        "cache.m4.2xlarge",
-        "cache.m4.4xlarge",
-        "cache.m4.10xlarge",
-        "cache.t4g.micro",
-        "cache.t4g.small",
-        "cache.t4g.medium",
-        "cache.t3.micro",
-        "cache.t3.small",
-        "cache.t3.medium",
-        "cache.t2.micro",
-        "cache.t2.small",
-        "cache.t2.medium",
-        "cache.r6g.large",
-        "cache.r6g.xlarge",
-        "cache.r6g.2xlarge",
-        "cache.r6g.4xlarge",
-        "cache.r6g.8xlarge",
-        "cache.r6g.12xlarge",
-        "cache.r6g.16xlarge",
-        "cache.r5.large",
-        "cache.r5.xlarge",
-        "cache.r5.2xlarge",
-        "cache.r5.4xlarge",
-        "cache.r5.12xlarge",
-        "cache.r5.24xlarge",
-        "cache.r4.large",
-        "cache.r4.xlarge",
-        "cache.r4.2xlarge",
-        "cache.r4.4xlarge",
-        "cache.r4.8xlarge",
-        "cache.r4.16xlarge"
-      ],
-      "previous": [
-        "cache.t1.micro",
-        "cache.m1.small",
-        "cache.m1.medium",
-        "cache.m1.large",
-        "cache.m1.xlarge",
-        "cache.m3.medium",
-        "cache.m3.large",
-        "cache.m3.xlarge",
-        "cache.m3.2xlarge",
-        "cache.c1.xlarge",
-        "cache.m2.xlarge",
-        "cache.m2.2xlarge",
-        "cache.m2.4xlarge",
-        "cache.r3.large",
-        "cache.r3.xlarge",
-        "cache.r3.2xlarge",
-        "cache.r3.4xlarge",
-        "cache.r3.8xlarge"
+    "id": "versions.services.lam::function.runtime",
+    "title": "Lambda latest runtime for all environments",
+    "runtime": {
+      "supported": [],
+      "deprecated": [
+        {
+          "Name": "Python 3.6",
+          "Identifier": "python3.6",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jul 18, 2022",
+          "Deprecation Phase 2": "Aug 29, 2022"
+        },
+        {
+          "Name": "Python 2.7",
+          "Identifier": "python2.7",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jul 15, 2021",
+          "Deprecation Phase 2": "May 30, 2022"
+        },
+        {
+          "Name": ".NET Core 2.1",
+          "Identifier": "dotnetcore2.1",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jan 5, 2022",
+          "Deprecation Phase 2": "Apr 13, 2022"
+        },
+        {
+          "Name": "Ruby 2.5",
+          "Identifier": "ruby2.5",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jul 30, 2021",
+          "Deprecation Phase 2": "Mar 31, 2022"
+        },
+        {
+          "Name": "Node.js 10",
+          "Identifier": "nodejs10.x",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "Jul 30, 2021",
+          "Deprecation Phase 2": "Feb 14, 2022"
+        },
+        {
+          "Name": "Node.js 8.10",
+          "Identifier": "nodejs8.10",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Mar 6, 2020"
+        },
+        {
+          "Name": "Node.js 4.3",
+          "Identifier": "nodejs4.3",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Mar 5, 2020"
+        },
+        {
+          "Name": "Node.js 6.10",
+          "Identifier": "nodejs6.10",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Aug 12, 2019"
+        },
+        {
+          "Name": ".NET Core 1.0",
+          "Identifier": "dotnetcore1.0",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Jul 30, 2019"
+        },
+        {
+          "Name": ".NET Core 2.0",
+          "Identifier": "dotnetcore2.0",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "May 30, 2019"
+        },
+        {
+          "Name": "Node.js 4.3 edge",
+          "Identifier": "nodejs4.3-edge",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Apr 30, 2019"
+        },
+        {
+          "Name": "Node.js 0.10",
+          "Identifier": "nodejs",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Oct 31, 2016"
+        }
       ]
-    }
-  },
-  {
-    "id": "versions.services.ecs::memcached.engine_version",
-    "title": "ElastiCache for Memcached versions",
-    "engine_version": {
-      "supported": [
-        "Memcached version 1.6.17",
-        "Memcached version 1.6.12",
-        "Memcached version 1.6.6",
-        "Memcached version 1.5.16",
-        "Memcached version 1.5.10",
-        "Memcached version 1.4.34",
-        "Memcached version 1.4.33",
-        "Memcached version 1.4.24",
-        "Memcached version 1.4.14",
-        "Memcached version 1.4.5"
-      ],
-      "deprecated": []
     }
   },
   {
@@ -4386,9 +4369,9 @@
         "Redis 6.2 (enhanced)",
         "Redis 6.0 (enhanced)",
         "Redis 5.0.6 (enhanced)",
-        "Redis 5.0.5 (deprecated)",
-        "Redis 5.0.4 (deprecated)",
-        "Redis 5.0.3 (deprecated)",
+        "Redis 5.0.5 (deprecated, use version 5.0.6)",
+        "Redis 5.0.4 (deprecated, use version 5.0.6)",
+        "Redis 5.0.3 (deprecated, use version 5.0.6)",
         "Redis 5.0.0 (deprecated, use version 5.0.6)",
         "Redis 4.0.10 (enhanced)",
         "Scheduled End of Life (EOL) versions (3.x)",

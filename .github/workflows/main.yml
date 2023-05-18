@@ -23,7 +23,7 @@ jobs:
           architecture: 'x64'
           cache: 'pip'
       - run: pip install -r requirements.txt
-        env: 
+      - env: 
           NOTIFICATION_URL: ${{ secrets.NOTIFICATION_URL }}
       - run: python regions/extract.py
       - run: python main.py

@@ -23,10 +23,12 @@ jobs:
           architecture: 'x64'
           cache: 'pip'
       - run: pip install -r requirements.txt
-      - env: 
+      - name: execute regions and service monitoring
+        env: 
           NOTIFICATION_URL: ${{ secrets.NOTIFICATION_URL }}
-      - run: python regions/extract.py
-      - run: python main.py
+        run: python regions/extract.py
+      - name: execute service version monitoring
+        run: python main.py
 
       # Git push raw json
       - uses: stefanzweifel/git-auto-commit-action@v4

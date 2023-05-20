@@ -3995,7 +3995,9 @@
         "cache.r3.xlarge",
         "cache.r3.2xlarge",
         "cache.r3.4xlarge",
-        "cache.r3.8xlarge"
+        "cache.r3.8xlarge",
+        "CPUCreditUsage",
+        "CPUCreditBalance"
       ]
     }
   },

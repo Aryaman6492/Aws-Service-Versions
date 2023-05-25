@@ -152,6 +152,7 @@
     "title": "Amazon EKS Kubernetes versions",
     "versions": {
       "supported": [
+        "1.27",
         "1.26",
         "1.25",
         "1.24",

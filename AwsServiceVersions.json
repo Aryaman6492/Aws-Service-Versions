@@ -2612,6 +2612,36 @@
           ]
         },
         {
+          "Instance class": "i4g.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "i4g.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "i4g.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "i4g.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "i4g.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "i4i.xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.8.0"
@@ -4086,6 +4116,26 @@
         },
         {
           "Instance class": "i3en.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "i4g.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "i4g.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "i4g.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "i4g.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "i4g.16xlarge",
           "Instance type": []
         },
         {

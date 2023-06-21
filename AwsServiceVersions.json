@@ -1022,6 +1022,150 @@
           ]
         },
         {
+          "Instance class": "m6id.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "m6id.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "m6id.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "m6id.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "m6id.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "m6id.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "m6id.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "m6id.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "m6idn.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6idn.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6idn.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6idn.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6idn.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6idn.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6idn.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6idn.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6in.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6in.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6in.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6in.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6in.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6in.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6in.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m6in.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "m7g.xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
@@ -1289,6 +1433,60 @@
           ]
         },
         {
+          "Instance class": "c6a.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6a.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6a.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6a.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6a.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6a.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6a.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6a.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6a.48xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
           "Instance class": "c6g.xlarge",
           "Instance type": [
             "emr-5.31.0, emr-6.1.0"
@@ -1442,6 +1640,54 @@
           "Instance class": "c6i.32xlarge",
           "Instance type": [
             "emr-5.35.0, emr-6.6.0"
+          ]
+        },
+        {
+          "Instance class": "c6id.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6id.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6id.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6id.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6id.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6id.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6id.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "c6id.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.8.0"
           ]
         },
         {
@@ -2222,6 +2468,102 @@
           "Instance class": "r6id.32xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "r6idn.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6idn.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6idn.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6idn.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6idn.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6idn.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6idn.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6idn.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6in.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6in.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6in.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6in.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6in.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6in.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6in.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r6in.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
@@ -3063,6 +3405,102 @@
           "Instance type": []
         },
         {
+          "Instance class": "m6id.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6id.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6id.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6id.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6id.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6id.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6id.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6id.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6idn.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6idn.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6idn.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6idn.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6idn.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6idn.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6idn.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6idn.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6in.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6in.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6in.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6in.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6in.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6in.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6in.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m6in.32xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "m7g.xlarge",
           "Instance type": []
         },
@@ -3240,6 +3678,42 @@
           "Instance type": []
         },
         {
+          "Instance class": "c6a.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6a.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6a.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6a.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6a.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6a.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6a.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6a.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6a.48xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "c6g.xlarge",
           "Instance type": []
         },
@@ -3341,6 +3815,38 @@
         },
         {
           "Instance class": "c6i.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6id.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6id.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6id.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6id.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6id.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6id.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6id.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c6id.32xlarge",
           "Instance type": []
         },
         {
@@ -3859,6 +4365,70 @@
         },
         {
           "Instance class": "r6id.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6idn.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6idn.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6idn.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6idn.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6idn.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6idn.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6idn.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6idn.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6in.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6in.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6in.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6in.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6in.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6in.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6in.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r6in.32xlarge",
           "Instance type": []
         },
         {

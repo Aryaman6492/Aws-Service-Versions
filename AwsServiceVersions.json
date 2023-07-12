@@ -4883,7 +4883,7 @@
           "Identifier": "nodejs4.3-edge",
           "Operating system": "Amazon Linux",
           "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Apr 29, 2019"
+          "Deprecation Phase 2": "Apr 30, 2019"
         },
         {
           "Name": "Node.js 0.10",

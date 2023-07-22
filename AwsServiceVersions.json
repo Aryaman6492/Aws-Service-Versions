@@ -1288,6 +1288,42 @@
           ]
         },
         {
+          "Instance class": "c7gn.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gn.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gn.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gn.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gn.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gn.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "Accelerated Computing",
           "Instance type": [
             "g3.4xlarge"
@@ -3416,6 +3452,30 @@
         },
         {
           "Instance class": "c7g.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gn.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gn.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gn.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gn.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gn.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gn.16xlarge",
           "Instance type": []
         },
         {

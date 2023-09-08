@@ -167,31 +167,31 @@
             "m4.large"
           ],
           "Minimum supported Amazon EMR version": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "m4.xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "m4.2xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "m4.4xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "m4.10xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
@@ -842,31 +842,31 @@
             "c4.large"
           ],
           "Minimum supported Amazon EMR version": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "c4.xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "c4.2xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "c4.4xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "c4.8xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
@@ -1598,31 +1598,31 @@
             "r4.xlarge"
           ],
           "Minimum supported Amazon EMR version": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "r4.2xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "r4.4xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "r4.8xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "r4.16xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
@@ -2453,25 +2453,25 @@
             "d2.xlarge"
           ],
           "Minimum supported Amazon EMR version": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "d2.2xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "d2.4xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {
           "Instance class": "d2.8xlarge",
           "Instance type": [
-            "emr-6.0.0"
+            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
           ]
         },
         {

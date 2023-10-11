@@ -206,45 +206,9 @@
         {
           "Instance class": "General Purpose",
           "Instance type": [
-            "m4.large"
+            "m5.xlarge"
           ],
           "Minimum supported Amazon EMR version": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "m4.xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "m4.2xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "m4.4xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "m4.10xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "m4.16xlarge",
-          "Instance type": [
-            "emr-4.8.3, emr-5.2.1, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "m5.xlarge",
-          "Instance type": [
             "emr-5.13.0, emr-6.0.0"
           ]
         },
@@ -879,41 +843,89 @@
           ]
         },
         {
+          "Instance class": "m7gd.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7gd.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7gd.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7gd.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7gd.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7gd.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i-flex.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i-flex.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i-flex.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "Compute Optimized",
           "Instance type": [
-            "c4.large"
+            "c5.xlarge"
           ],
           "Minimum supported Amazon EMR version": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "c4.xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "c4.2xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "c4.4xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "c4.8xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "c5.xlarge",
-          "Instance type": [
             "emr-5.13.0, emr-6.0.0"
           ]
         },
@@ -1452,6 +1464,42 @@
           ]
         },
         {
+          "Instance class": "c7gd.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gd.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gd.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gd.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gd.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7gd.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "c7gn.xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
@@ -1635,41 +1683,17 @@
           ]
         },
         {
+          "Instance class": "p5.48xlarge",
+          "Instance type": [
+            "emr-6.14.0"
+          ]
+        },
+        {
           "Instance class": "Memory Optimized",
           "Instance type": [
-            "r4.xlarge"
+            "r5.xlarge"
           ],
           "Minimum supported Amazon EMR version": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "r4.2xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "r4.4xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "r4.8xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "r4.16xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "r5.xlarge",
-          "Instance type": [
             "emr-5.13.0, emr-6.0.0"
           ]
         },
@@ -2311,6 +2335,42 @@
         },
         {
           "Instance class": "r7g.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7gd.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7gd.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7gd.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7gd.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7gd.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7gd.16xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
           ]
@@ -2794,30 +2854,6 @@
           "Minimum supported Amazon EMR version": []
         },
         {
-          "Instance class": "m4.xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "m4.2xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "m4.4xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "m4.10xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "m4.16xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "m5.xlarge",
-          "Instance type": []
-        },
-        {
           "Instance class": "m5.2xlarge",
           "Instance type": []
         },
@@ -3238,29 +3274,61 @@
           "Instance type": []
         },
         {
+          "Instance class": "m7gd.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7gd.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7gd.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7gd.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7gd.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7gd.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i-flex.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i-flex.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i-flex.4xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "Compute Optimized",
           "Instance type": [],
           "Minimum supported Amazon EMR version": []
-        },
-        {
-          "Instance class": "c4.xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "c4.2xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "c4.4xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "c4.8xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "c5.xlarge",
-          "Instance type": []
         },
         {
           "Instance class": "c5.2xlarge",
@@ -3619,6 +3687,30 @@
           "Instance type": []
         },
         {
+          "Instance class": "c7gd.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gd.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gd.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gd.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gd.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7gd.16xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "c7gn.xlarge",
           "Instance type": []
         },
@@ -3740,29 +3832,13 @@
           "Instance type": []
         },
         {
+          "Instance class": "p5.48xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "Memory Optimized",
           "Instance type": [],
           "Minimum supported Amazon EMR version": []
-        },
-        {
-          "Instance class": "r4.2xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "r4.4xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "r4.8xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "r4.16xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "r5.xlarge",
-          "Instance type": []
         },
         {
           "Instance class": "r5.2xlarge",
@@ -4190,6 +4266,30 @@
         },
         {
           "Instance class": "r7g.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7gd.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7gd.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7gd.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7gd.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7gd.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7gd.16xlarge",
           "Instance type": []
         },
         {

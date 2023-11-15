@@ -4947,6 +4947,7 @@
     "title": "ElastiCache for Redis versions",
     "engine_version": {
       "supported": [
+        "Redis 7.1",
         "Redis 7.0 (enhanced)",
         "Redis 6.2 (enhanced)",
         "Redis 6.0 (enhanced)",

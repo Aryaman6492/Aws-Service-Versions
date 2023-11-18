@@ -637,6 +637,60 @@
           ]
         },
         {
+          "Instance class": "m7a.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7a.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7a.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7a.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7a.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7a.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7a.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7a.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7a.48xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "m7g.xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
@@ -733,6 +787,30 @@
           ]
         },
         {
+          "Instance class": "m7i.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i.48xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "m7i-flex.xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
@@ -746,6 +824,12 @@
         },
         {
           "Instance class": "m7i-flex.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "m7i-flex.8xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
           ]
@@ -1361,6 +1445,54 @@
         },
         {
           "Instance class": "c7gn.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7i.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7i.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7i.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7i.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7i.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7i.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7i.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7i.48xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
           ]
@@ -2134,6 +2266,60 @@
           ]
         },
         {
+          "Instance class": "r7a.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7a.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7a.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7a.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7a.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7a.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7a.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7a.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7a.48xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "r7g.xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
@@ -2201,6 +2387,48 @@
         },
         {
           "Instance class": "r7gd.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7iz.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7iz.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7iz.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7iz.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7iz.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7iz.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7iz.32xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
           ]
@@ -3080,6 +3308,42 @@
           "Instance type": []
         },
         {
+          "Instance class": "m7a.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7a.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7a.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7a.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7a.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7a.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7a.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7a.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7a.48xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "m7g.xlarge",
           "Instance type": []
         },
@@ -3144,6 +3408,22 @@
           "Instance type": []
         },
         {
+          "Instance class": "m7i.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i.48xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "m7i-flex.xlarge",
           "Instance type": []
         },
@@ -3153,6 +3433,10 @@
         },
         {
           "Instance class": "m7i-flex.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "m7i-flex.8xlarge",
           "Instance type": []
         },
         {
@@ -3562,6 +3846,38 @@
         },
         {
           "Instance class": "c7gn.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7i.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7i.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7i.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7i.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7i.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7i.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7i.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7i.48xlarge",
           "Instance type": []
         },
         {
@@ -4075,6 +4391,42 @@
           "Instance type": []
         },
         {
+          "Instance class": "r7a.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7a.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7a.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7a.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7a.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7a.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7a.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7a.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7a.48xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "r7g.xlarge",
           "Instance type": []
         },
@@ -4120,6 +4472,34 @@
         },
         {
           "Instance class": "r7gd.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7iz.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7iz.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7iz.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7iz.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7iz.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7iz.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7iz.32xlarge",
           "Instance type": []
         },
         {

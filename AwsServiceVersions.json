@@ -1,12 +1,68 @@
 [
   {
-    "id": "versions.services.ecs::fargate_windows.platform_version",
-    "title": "Fargate Windows Platform Version",
+    "id": "versions.services.ecs::redis.node_generation",
+    "title": "ElastiCache cluster latest node version ( redis )",
+    "node_generation": {
+      "current": [],
+      "previous": []
+    }
+  },
+  {
+    "id": "versions.services.ecs::redis.engine_version",
+    "title": "ElastiCache for Redis versions",
+    "engine_version": {
+      "supported": [
+        "Redis 7.1",
+        "Redis 7.0 (enhanced)",
+        "Redis 6.2 (enhanced)",
+        "Redis 6.0 (enhanced)",
+        "Redis 5.0.6 (enhanced)",
+        "Redis 5.0.5 (deprecated, use version 5.0.6)",
+        "Redis 5.0.4 (deprecated, use version 5.0.6)",
+        "Redis 5.0.3 (deprecated, use version 5.0.6)",
+        "Redis 5.0.0 (deprecated, use version 5.0.6)",
+        "Redis 4.0.10 (enhanced)",
+        "Scheduled End of Life (EOL) versions (3.x)",
+        "Past End of Life (EOL) versions 2.x"
+      ],
+      "deprecated": [
+        {
+          "Source Major Version": "Version 3",
+          "Source Minor Versions": "3.2.4, 3.2.6 and 3.2.10",
+          "Recommended Upgrade Target": "Version 6.2 or higherNoteFor US-ISO-EAST-1, US-ISO-WEST-1, and US-ISOB-EAST-1 Regions, we recommend 5.0.6 or higher.",
+          "EOL Date": "July 31, 2023"
+        }
+      ]
+    }
+  },
+  {
+    "id": "versions.services.ecs::fargate_linux.platform_version",
+    "title": "Fargate Linux Platform Version",
     "platform_version": {
       "supported": [
+        "1.4.0",
+        "1.3.0",
+        "1.2.0",
+        "1.1.0",
         "1.0.0"
       ],
-      "deprecated": []
+      "deprecated": [
+        {
+          "Platform version": "1.0.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        },
+        {
+          "Platform version": "1.1.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        },
+        {
+          "Platform version": "1.2.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        }
+      ]
     }
   },
   {
@@ -26,6 +82,138 @@
         "R3 to R5",
         "M1 to T2"
       ]
+    }
+  },
+  {
+    "id": "versions.services.emr::datapipeline.instances",
+    "title": "EMR Latest generation of instances for datapipeline",
+    "instances": {
+      "current": [
+        {
+          "Instance Class": "General purpose",
+          "Instance Types": [
+            "m1.small",
+            "m1.medium",
+            "m1.large",
+            "m1.xlarge",
+            "m3.xlarge",
+            "m3.2xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Compute optimized",
+          "Instance Types": [
+            "c1.medium",
+            "c1.xlarge",
+            "c3.xlarge",
+            "c3.2xlarge",
+            "c3.4xlarge",
+            "c3.8xlarge",
+            "cc1.4xlarge",
+            "cc2.8xlarge",
+            "c4.large",
+            "c4.xlarge",
+            "c4.2xlarge",
+            "c4.4xlarge",
+            "c4.8xlarge",
+            "c5.xlarge",
+            "c5.9xlarge",
+            "c5.2xlarge",
+            "c5.4xlarge",
+            "c5.9xlarge",
+            "c5.18xlarge",
+            "c5d.xlarge",
+            "c5d.2xlarge",
+            "c5d.4xlarge",
+            "c5d.9xlarge",
+            "c5d.18xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Memory optimized",
+          "Instance Types": [
+            "m2.xlarge",
+            "m2.2xlarge",
+            "m2.4xlarge",
+            "r3.xlarge",
+            "r3.2xlarge",
+            "r3.4xlarge",
+            "r3.8xlarge",
+            "cr1.8xlarge",
+            "m4.large",
+            "m4.xlarge",
+            "m4.2xlarge",
+            "m4.4xlarge",
+            "m4.10xlarge",
+            "m4.16large",
+            "m5.xlarge",
+            "m5.2xlarge",
+            "m5.4xlarge",
+            "m5.12xlarge",
+            "m5.24xlarge",
+            "m5d.xlarge",
+            "m5d.2xlarge",
+            "m5d.4xlarge",
+            "m5d.12xlarge",
+            "m5d.24xlarge",
+            "r4.large",
+            "r4.xlarge",
+            "r4.2xlarge",
+            "r4.4xlarge",
+            "r4.8xlarge",
+            "r4.16xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Storage optimized",
+          "Instance Types": [
+            "h1.4xlarge",
+            "hs1.2xlarge",
+            "hs1.4xlarge",
+            "hs1.8xlarge",
+            "i2.xlarge",
+            "i2.2xlarge",
+            "i2.4large",
+            "i2.8xlarge",
+            "d2.xlarge",
+            "d2.2xlarge",
+            "d2.4xlarge",
+            "d2.8xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Accelerated computing",
+          "Instance Types": [
+            "g2.2xlarge",
+            "cg1.4xlarge"
+          ]
+        }
+      ],
+      "previous": []
+    }
+  },
+  {
+    "id": "versions.services.ecs::fargate_windows.platform_version",
+    "title": "Fargate Windows Platform Version",
+    "platform_version": {
+      "supported": [
+        "1.0.0"
+      ],
+      "deprecated": []
+    }
+  },
+  {
+    "id": "versions.services.eks::kubernetes.versions",
+    "title": "Amazon EKS Kubernetes versions",
+    "versions": {
+      "supported": [
+        "1.28",
+        "1.27",
+        "1.26",
+        "1.25",
+        "1.24"
+      ],
+      "deprecated": []
     }
   },
   {
@@ -4829,36 +5017,6 @@
     }
   },
   {
-    "id": "versions.services.ecs::fargate_linux.platform_version",
-    "title": "Fargate Linux Platform Version",
-    "platform_version": {
-      "supported": [
-        "1.4.0",
-        "1.3.0",
-        "1.2.0",
-        "1.1.0",
-        "1.0.0"
-      ],
-      "deprecated": [
-        {
-          "Platform version": "1.0.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        },
-        {
-          "Platform version": "1.1.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        },
-        {
-          "Platform version": "1.2.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        }
-      ]
-    }
-  },
-  {
     "id": "versions.services.ecs::memcached.node_generation",
     "title": "ElastiCache cluster latest node version ( memcached )",
     "node_generation": {
@@ -4954,111 +5112,117 @@
     }
   },
   {
-    "id": "versions.services.emr::datapipeline.instances",
-    "title": "EMR Latest generation of instances for datapipeline",
-    "instances": {
-      "current": [
+    "id": "versions.services.lam::function.runtime",
+    "title": "Lambda latest runtime for all environments",
+    "runtime": {
+      "supported": [],
+      "deprecated": [
         {
-          "Instance Class": "General purpose",
-          "Instance Types": [
-            "m1.small",
-            "m1.medium",
-            "m1.large",
-            "m1.xlarge",
-            "m3.xlarge",
-            "m3.2xlarge"
-          ]
+          "Name": ".NET Core 3.1",
+          "Identifier": "dotnetcore3.1",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "Apr 3, 2023",
+          "Deprecation Phase 2": "May 3, 2023"
         },
         {
-          "Instance Class": "Compute optimized",
-          "Instance Types": [
-            "c1.medium",
-            "c1.xlarge",
-            "c3.xlarge",
-            "c3.2xlarge",
-            "c3.4xlarge",
-            "c3.8xlarge",
-            "cc1.4xlarge",
-            "cc2.8xlarge",
-            "c4.large",
-            "c4.xlarge",
-            "c4.2xlarge",
-            "c4.4xlarge",
-            "c4.8xlarge",
-            "c5.xlarge",
-            "c5.9xlarge",
-            "c5.2xlarge",
-            "c5.4xlarge",
-            "c5.9xlarge",
-            "c5.18xlarge",
-            "c5d.xlarge",
-            "c5d.2xlarge",
-            "c5d.4xlarge",
-            "c5d.9xlarge",
-            "c5d.18xlarge"
-          ]
+          "Name": "Node.js 12",
+          "Identifier": "nodejs12.x",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "Mar 31, 2023",
+          "Deprecation Phase 2": "Apr 30, 2023"
         },
         {
-          "Instance Class": "Memory optimized",
-          "Instance Types": [
-            "m2.xlarge",
-            "m2.2xlarge",
-            "m2.4xlarge",
-            "r3.xlarge",
-            "r3.2xlarge",
-            "r3.4xlarge",
-            "r3.8xlarge",
-            "cr1.8xlarge",
-            "m4.large",
-            "m4.xlarge",
-            "m4.2xlarge",
-            "m4.4xlarge",
-            "m4.10xlarge",
-            "m4.16large",
-            "m5.xlarge",
-            "m5.2xlarge",
-            "m5.4xlarge",
-            "m5.12xlarge",
-            "m5.24xlarge",
-            "m5d.xlarge",
-            "m5d.2xlarge",
-            "m5d.4xlarge",
-            "m5d.12xlarge",
-            "m5d.24xlarge",
-            "r4.large",
-            "r4.xlarge",
-            "r4.2xlarge",
-            "r4.4xlarge",
-            "r4.8xlarge",
-            "r4.16xlarge"
-          ]
+          "Name": "Python 3.6",
+          "Identifier": "python3.6",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jul 18, 2022",
+          "Deprecation Phase 2": "Aug 29, 2022"
         },
         {
-          "Instance Class": "Storage optimized",
-          "Instance Types": [
-            "h1.4xlarge",
-            "hs1.2xlarge",
-            "hs1.4xlarge",
-            "hs1.8xlarge",
-            "i2.xlarge",
-            "i2.2xlarge",
-            "i2.4large",
-            "i2.8xlarge",
-            "d2.xlarge",
-            "d2.2xlarge",
-            "d2.4xlarge",
-            "d2.8xlarge"
-          ]
+          "Name": "Python 2.7",
+          "Identifier": "python2.7",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jul 15, 2021",
+          "Deprecation Phase 2": "May 30, 2022"
         },
         {
-          "Instance Class": "Accelerated computing",
-          "Instance Types": [
-            "g2.2xlarge",
-            "cg1.4xlarge"
-          ]
+          "Name": ".NET 5 (container only)",
+          "Identifier": "dotnet5.0",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "May 10, 2022",
+          "Deprecation Phase 2": "May 10, 2022"
+        },
+        {
+          "Name": ".NET Core 2.1",
+          "Identifier": "dotnetcore2.1",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jan 5, 2022",
+          "Deprecation Phase 2": "Apr 13, 2022"
+        },
+        {
+          "Name": "Ruby 2.5",
+          "Identifier": "ruby2.5",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "Jul 30, 2021",
+          "Deprecation Phase 2": "Mar 31, 2022"
+        },
+        {
+          "Name": "Node.js 10",
+          "Identifier": "nodejs10.x",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation Phase 1": "Jul 30, 2021",
+          "Deprecation Phase 2": "Feb 14, 2022"
+        },
+        {
+          "Name": "Node.js 8.10",
+          "Identifier": "nodejs8.10",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Mar 6, 2020"
+        },
+        {
+          "Name": "Node.js 4.3",
+          "Identifier": "nodejs4.3",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Mar 5, 2020"
+        },
+        {
+          "Name": "Node.js 6.10",
+          "Identifier": "nodejs6.10",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Aug 12, 2019"
+        },
+        {
+          "Name": ".NET Core 1.0",
+          "Identifier": "dotnetcore1.0",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Jul 30, 2019"
+        },
+        {
+          "Name": ".NET Core 2.0",
+          "Identifier": "dotnetcore2.0",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "May 30, 2019"
+        },
+        {
+          "Name": "Node.js 4.3 edge",
+          "Identifier": "nodejs4.3-edge",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Apr 30, 2019"
+        },
+        {
+          "Name": "Node.js 0.10",
+          "Identifier": "nodejs",
+          "Operating system": "Amazon Linux",
+          "Deprecation Phase 1": "",
+          "Deprecation Phase 2": "Oct 31, 2016"
         }
-      ],
-      "previous": []
+      ]
     }
   },
   {
@@ -5184,170 +5348,6 @@
           }
         ]
       }
-    }
-  },
-  {
-    "id": "versions.services.eks::kubernetes.versions",
-    "title": "Amazon EKS Kubernetes versions",
-    "versions": {
-      "supported": [
-        "1.28",
-        "1.27",
-        "1.26",
-        "1.25",
-        "1.24"
-      ],
-      "deprecated": []
-    }
-  },
-  {
-    "id": "versions.services.lam::function.runtime",
-    "title": "Lambda latest runtime for all environments",
-    "runtime": {
-      "supported": [],
-      "deprecated": [
-        {
-          "Name": ".NET Core 3.1",
-          "Identifier": "dotnetcore3.1",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Apr 3, 2023",
-          "Deprecation Phase 2": "May 3, 2023"
-        },
-        {
-          "Name": "Node.js 12",
-          "Identifier": "nodejs12.x",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Mar 31, 2023",
-          "Deprecation Phase 2": "Apr 30, 2023"
-        },
-        {
-          "Name": "Python 3.6",
-          "Identifier": "python3.6",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "Jul 18, 2022",
-          "Deprecation Phase 2": "Aug 29, 2022"
-        },
-        {
-          "Name": "Python 2.7",
-          "Identifier": "python2.7",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "Jul 15, 2021",
-          "Deprecation Phase 2": "May 30, 2022"
-        },
-        {
-          "Name": ".NET 5 (container only)",
-          "Identifier": "dotnet5.0",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "May 10, 2022",
-          "Deprecation Phase 2": "May 10, 2022"
-        },
-        {
-          "Name": ".NET Core 2.1",
-          "Identifier": "dotnetcore2.1",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "Jan 5, 2022",
-          "Deprecation Phase 2": "Apr 13, 2022"
-        },
-        {
-          "Name": "Ruby 2.5",
-          "Identifier": "ruby2.5",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "Jul 30, 2021",
-          "Deprecation Phase 2": "Mar 31, 2022"
-        },
-        {
-          "Name": "Node.js 10",
-          "Identifier": "nodejs10.x",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation Phase 1": "Jul 30, 2021",
-          "Deprecation Phase 2": "Feb 14, 2022"
-        },
-        {
-          "Name": "Node.js 8.10",
-          "Identifier": "nodejs8.10",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Mar 6, 2020"
-        },
-        {
-          "Name": "Node.js 4.3",
-          "Identifier": "nodejs4.3",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Mar 5, 2020"
-        },
-        {
-          "Name": "Node.js 6.10",
-          "Identifier": "nodejs6.10",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Aug 12, 2019"
-        },
-        {
-          "Name": ".NET Core 1.0",
-          "Identifier": "dotnetcore1.0",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Jul 30, 2019"
-        },
-        {
-          "Name": ".NET Core 2.0",
-          "Identifier": "dotnetcore2.0",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "May 30, 2019"
-        },
-        {
-          "Name": "Node.js 4.3 edge",
-          "Identifier": "nodejs4.3-edge",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Apr 30, 2019"
-        },
-        {
-          "Name": "Node.js 0.10",
-          "Identifier": "nodejs",
-          "Operating system": "Amazon Linux",
-          "Deprecation Phase 1": "",
-          "Deprecation Phase 2": "Oct 31, 2016"
-        }
-      ]
-    }
-  },
-  {
-    "id": "versions.services.ecs::redis.node_generation",
-    "title": "ElastiCache cluster latest node version ( redis )",
-    "node_generation": {
-      "current": [],
-      "previous": []
-    }
-  },
-  {
-    "id": "versions.services.ecs::redis.engine_version",
-    "title": "ElastiCache for Redis versions",
-    "engine_version": {
-      "supported": [
-        "Redis 7.1",
-        "Redis 7.0 (enhanced)",
-        "Redis 6.2 (enhanced)",
-        "Redis 6.0 (enhanced)",
-        "Redis 5.0.6 (enhanced)",
-        "Redis 5.0.5 (deprecated, use version 5.0.6)",
-        "Redis 5.0.4 (deprecated, use version 5.0.6)",
-        "Redis 5.0.3 (deprecated, use version 5.0.6)",
-        "Redis 5.0.0 (deprecated, use version 5.0.6)",
-        "Redis 4.0.10 (enhanced)",
-        "Scheduled End of Life (EOL) versions (3.x)",
-        "Past End of Life (EOL) versions 2.x"
-      ],
-      "deprecated": [
-        {
-          "Source Major Version": "Version 3",
-          "Source Minor Versions": "3.2.4, 3.2.6 and 3.2.10",
-          "Recommended Upgrade Target": "Version 6.2 or higherNoteFor US-ISO-EAST-1, US-ISO-WEST-1, and US-ISOB-EAST-1 Regions, we recommend 5.0.6 or higher.",
-          "EOL Date": "July 31, 2023"
-        }
-      ]
     }
   }
 ]

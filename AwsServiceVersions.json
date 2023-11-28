@@ -70,6 +70,7 @@
     "title": "RDS Instances latest generation of instance classes",
     "classes": {
       "current": [
+        "Db2",
         "MariaDB",
         "Microsoft SQL Server",
         "MySQL",

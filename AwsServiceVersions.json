@@ -270,6 +270,20 @@
           "Deprecation date": "",
           "Block function create": "",
           "Block function update": "Oct 31, 2016"
+        },
+        {
+          "Name": "Node.js 6.10",
+          "Identifier": "nodejs6.10",
+          "Operating system": "Amazon Linux",
+          "Deprecation date": "Aug 12, 2019",
+          "Block function create": ""
+        },
+        {
+          "Name": ".NET 5 (container only)",
+          "Identifier": "dotnet5.0",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation date": "",
+          "Block function create": ""
         }
       ]
     }

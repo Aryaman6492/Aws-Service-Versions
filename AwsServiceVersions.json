@@ -5301,14 +5301,15 @@
         }
       ],
       "recommended_upgrade": [
-        "T1/M1 to T2",
-        "M1/M3 to M5",
-        "C1/C3 to C5",
+        "T1General PurposeT3T4gT3a",
+        "M1General PurposeM7iM7gM7a",
+        "M3General PurposeM7iM7gM7a",
         "I2 to I3",
         "M2/CR1/R3 to R4",
         "HS1 to D2",
         "G2 to G3",
-        "A1 to C7g"
+        "A1 to C7g",
+        "A1General PurposeC7gM7gC6g"
       ]
     }
   },

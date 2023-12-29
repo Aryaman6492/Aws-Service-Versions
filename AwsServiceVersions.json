@@ -508,410 +508,410 @@
           "Instance type": [
             "m5.xlarge"
           ],
-          "Minimum supported Amazon EMR version": [
-            "emr-5.13.0, emr-6.0.0"
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": [
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5.2xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5.4xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5.8xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5.12xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5.16xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5.24xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5a.xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5a.2xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5a.4xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5a.8xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5a.12xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5a.16xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5a.24xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5ad.xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5ad.2xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5ad.4xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5ad.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5ad.12xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5ad.16xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5ad.24xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5d.xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5d.2xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5d.4xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5d.8xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5d.12xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5d.16xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5d.24xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5dn.xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5dn.2xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5dn.4xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5dn.8xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5dn.12xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5dn.16xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5dn.24xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5n.xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5n.2xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5n.4xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5n.8xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5n.12xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5n.16xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5n.24xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5zn.xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5zn.2xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5zn.3xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5zn.6xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m5zn.12xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6a.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6a.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6a.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6a.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6a.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6a.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6a.24xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6a.32xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6a.48xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6g.xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.1.0"
+            "emr-5.30.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6g.2xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.1.0"
+            "emr-5.30.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6g.4xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.1.0"
+            "emr-5.30.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6g.8xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.1.0"
+            "emr-5.30.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6g.12xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.1.0"
+            "emr-5.30.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6g.16xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.1.0"
+            "emr-5.30.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6gd.xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6gd.2xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6gd.4xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6gd.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6gd.12xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m6gd.16xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
@@ -1163,73 +1163,73 @@
         {
           "Instance class": "m7g.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7g.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7g.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7g.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7g.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7g.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7gd.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7gd.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7gd.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7gd.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7gd.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "m7gd.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
@@ -1309,362 +1309,362 @@
           "Instance type": [
             "c5.xlarge"
           ],
-          "Minimum supported Amazon EMR version": [
-            "emr-5.13.0, emr-6.0.0"
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": [
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5.2xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5.4xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5.9xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5.12xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5.18xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5.24xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5a.xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5a.2xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5a.4xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5a.8xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5a.12xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5a.16xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5a.24xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5ad.xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5ad.2xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5ad.4xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5ad.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5ad.12xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5ad.16xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5ad.24xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5d.xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5d.2xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5d.4xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5d.9xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5d.12xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5d.18xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5d.24xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5n.xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5n.2xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5n.4xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5n.9xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c5n.18xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6a.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6a.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6a.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6a.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6a.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6a.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6a.24xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6a.32xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6a.48xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6g.xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6g.2xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6g.4xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6g.8xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6g.12xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6g.16xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gd.xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gd.2xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gd.4xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gd.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gd.12xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gd.16xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gn.xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gn.2xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gn.4xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gn.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gn.12xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c6gn.16xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
@@ -1812,111 +1812,165 @@
           ]
         },
         {
+          "Instance class": "c7a.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7a.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7a.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7a.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7a.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7a.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7a.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7a.32xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "c7a.48xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "c7g.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7g.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7g.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7g.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7g.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7g.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.7.0"
+            "emr-5.36.1, emr-6.7.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gd.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gd.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gd.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gd.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gd.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gd.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gn.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gn.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gn.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gn.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gn.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "c7gn.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
@@ -1972,152 +2026,152 @@
           "Instance type": [
             "g3.4xlarge"
           ],
-          "Minimum supported Amazon EMR version": [
-            "emr-5.18.0, emr-6.0.0"
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": [
+            "emr-5.18.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g3.8xlarge",
           "Instance type": [
-            "emr-5.18.0, emr-6.0.0"
+            "emr-5.18.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g3.16xlarge",
           "Instance type": [
-            "emr-5.18.0, emr-6.0.0"
+            "emr-5.18.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g3s.xlarge",
           "Instance type": [
-            "emr-5.19.0, emr-6.0.0"
+            "emr-5.19.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g4dn.xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.0.0"
+            "emr-5.30.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g4dn.2xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.0.0"
+            "emr-5.30.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g4dn.4xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.0.0"
+            "emr-5.30.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g4dn.8xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.0.0"
+            "emr-5.30.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g4dn.12xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.0.0"
+            "emr-5.30.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g4dn.16xlarge",
           "Instance type": [
-            "emr-5.30.0, emr-6.0.0"
+            "emr-5.30.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g5.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g5.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g5.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g5.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g5.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g5.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g5.24xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "g5.48xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "p2.xlarge",
           "Instance type": [
-            "emr-5.10.0, emr-6.0.0"
+            "emr-5.10.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "p2.8xlarge",
           "Instance type": [
-            "emr-5.10.0, emr-6.0.0"
+            "emr-5.10.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "p2.16xlarge",
           "Instance type": [
-            "emr-5.10.0, emr-6.0.0"
+            "emr-5.10.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "p3.2xlarge",
           "Instance type": [
-            "emr-5.10.0, emr-6.0.0"
+            "emr-5.10.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "p3.8xlarge",
           "Instance type": [
-            "emr-5.10.0, emr-6.0.0"
+            "emr-5.10.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "p3.16xlarge",
           "Instance type": [
-            "emr-5.10.0, emr-6.0.0"
+            "emr-5.10.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "p5.48xlarge",
           "Instance type": [
-            "emr-6.14.0"
+            "emr-6.14.0, emr-7.0.0"
           ]
         },
         {
@@ -2125,422 +2179,422 @@
           "Instance type": [
             "r5.xlarge"
           ],
-          "Minimum supported Amazon EMR version": [
-            "emr-5.13.0, emr-6.0.0"
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": [
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5.2xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5.4xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5.8xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5.12xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5.16xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5.24xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5a.xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5a.2xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5a.4xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5a.8xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5a.12xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5a.16xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5a.24xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5ad.xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5ad.2xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5ad.4xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5ad.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5ad.12xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5ad.16xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5ad.24xlarge",
           "Instance type": [
-            "emr-5.20.0, emr-6.0.0"
+            "emr-5.20.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5b.xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5b.2xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5b.4xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5b.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5b.12xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5b.16xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5b.24xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5d.xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5d.2xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5d.4xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5d.8xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5d.12xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5d.16xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5d.24xlarge",
           "Instance type": [
-            "emr-5.13.0, emr-6.0.0"
+            "emr-5.13.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5dn.xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5dn.2xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5dn.4xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5dn.8xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5dn.12xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5dn.16xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5dn.24xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5n.xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5n.2xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5n.4xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5n.8xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5n.12xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5n.16xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r5n.24xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6a.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6a.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6a.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6a.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6a.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6a.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6a.24xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6a.32xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6a.48xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.8.0"
+            "emr-5.36.1, emr-6.8.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6g.xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6g.2xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6g.4xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6g.8xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6g.12xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6g.16xlarge",
           "Instance type": [
-            "emr-5.31.0, emr-6.1.0"
+            "emr-5.31.0, emr-6.1.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6gd.xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6gd.2xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6gd.4xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6gd.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6gd.12xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r6gd.16xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
@@ -2792,71 +2846,119 @@
         {
           "Instance class": "r7g.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7g.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7g.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7g.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7g.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7g.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7gd.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7gd.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7gd.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7gd.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7gd.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "r7gd.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
+          ]
+        },
+        {
+          "Instance class": "r7i.xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7i.2xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7i.4xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7i.8xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7i.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7i.16xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7i.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
+          "Instance class": "r7i.48xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.10.0"
           ]
@@ -2906,85 +3008,85 @@
         {
           "Instance class": "x1.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x1.32xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.9.0"
+            "emr-5.36.1, emr-6.9.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x1e.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x1e.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x1e.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x1e.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x1e.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x1e.32xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x2gd.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x2gd.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x2gd.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x2gd.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x2gd.12xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "x2gd.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
@@ -3050,238 +3152,214 @@
         {
           "Instance class": "z1d.xlarge",
           "Instance type": [
-            "emr-5.17.0, emr-6.0.0"
+            "emr-5.17.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "z1d.2xlarge",
           "Instance type": [
-            "emr-5.17.0, emr-6.0.0"
+            "emr-5.17.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "z1d.3xlarge",
           "Instance type": [
-            "emr-5.17.0, emr-6.0.0"
+            "emr-5.17.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "z1d.6xlarge",
           "Instance type": [
-            "emr-5.17.0, emr-6.0.0"
+            "emr-5.17.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "z1d.12xlarge",
           "Instance type": [
-            "emr-5.17.0, emr-6.0.0"
+            "emr-5.17.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "Storage Optimized",
           "Instance type": [
-            "d2.xlarge"
+            "d3.xlarge"
           ],
-          "Minimum supported Amazon EMR version": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "d2.2xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "d2.4xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "d2.8xlarge",
-          "Instance type": [
-            "emr-4.0.0, emr-5.0.0, emr-6.0.0"
-          ]
-        },
-        {
-          "Instance class": "d3.xlarge",
-          "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": [
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "d3.2xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "d3.4xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "d3.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "d3en.xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "d3en.2xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "d3en.4xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "d3en.6xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "d3en.8xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "d3en.12xlarge",
           "Instance type": [
-            "emr-5.33.0, emr-6.3.0"
+            "emr-5.33.0, emr-6.3.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "h1.2xlarge",
           "Instance type": [
-            "emr-5.17.0, emr-6.0.0"
+            "emr-5.17.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "h1.4xlarge",
           "Instance type": [
-            "emr-5.17.0, emr-6.0.0"
+            "emr-5.17.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "h1.8xlarge",
           "Instance type": [
-            "emr-5.17.0, emr-6.0.0"
+            "emr-5.17.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "h1.16xlarge",
           "Instance type": [
-            "emr-5.17.0, emr-6.0.0"
+            "emr-5.17.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3.xlarge",
           "Instance type": [
-            "emr-5.9.0, emr-6.0.0"
+            "emr-5.9.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3.2xlarge",
           "Instance type": [
-            "emr-5.9.0, emr-6.0.0"
+            "emr-5.9.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3.4xlarge",
           "Instance type": [
-            "emr-5.9.0, emr-6.0.0"
+            "emr-5.9.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3.8xlarge",
           "Instance type": [
-            "emr-5.9.0, emr-6.0.0"
+            "emr-5.9.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3.16xlarge",
           "Instance type": [
-            "emr-5.9.0, emr-6.0.0"
+            "emr-5.9.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3en.xlarge",
           "Instance type": [
-            "emr-5.25.0, emr-6.0.0"
+            "emr-5.25.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3en.2xlarge",
           "Instance type": [
-            "emr-5.25.0, emr-6.0.0"
+            "emr-5.25.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3en.3xlarge",
           "Instance type": [
-            "emr-5.25.0, emr-6.0.0"
+            "emr-5.25.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3en.6xlarge",
           "Instance type": [
-            "emr-5.25.0, emr-6.0.0"
+            "emr-5.25.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3en.12xlarge",
           "Instance type": [
-            "emr-5.25.0, emr-6.0.0"
+            "emr-5.25.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i3en.24xlarge",
           "Instance type": [
-            "emr-5.25.0, emr-6.0.0"
+            "emr-5.25.0, emr-6.0.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i4g.xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i4g.2xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i4g.4xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i4g.8xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "i4g.16xlarge",
           "Instance type": [
-            "emr-5.36.1, emr-6.10.0"
+            "emr-5.36.1, emr-6.10.0, emr-7.0.0"
           ]
         },
         {
@@ -3309,9 +3387,21 @@
           ]
         },
         {
+          "Instance class": "i4i.12xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
+          ]
+        },
+        {
           "Instance class": "i4i.16xlarge",
           "Instance type": [
             "emr-5.36.1, emr-6.8.0"
+          ]
+        },
+        {
+          "Instance class": "i4i.24xlarge",
+          "Instance type": [
+            "emr-5.36.1, emr-6.10.0"
           ]
         },
         {
@@ -3323,55 +3413,55 @@
         {
           "Instance class": "im4gn.xlarge",
           "Instance type": [
-            "emr-5.35.0, emr-6.6.0"
+            "emr-5.35.0, emr-6.6.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "im4gn.2xlarge",
           "Instance type": [
-            "emr-5.35.0, emr-6.6.0"
+            "emr-5.35.0, emr-6.6.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "im4gn.4xlarge",
           "Instance type": [
-            "emr-5.35.0, emr-6.6.0"
+            "emr-5.35.0, emr-6.6.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "im4gn.8xlarge",
           "Instance type": [
-            "emr-5.35.0, emr-6.6.0"
+            "emr-5.35.0, emr-6.6.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "im4gn.16xlarge",
           "Instance type": [
-            "emr-5.35.0, emr-6.6.0"
+            "emr-5.35.0, emr-6.6.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "is4gen.xlarge",
           "Instance type": [
-            "emr-5.35.0, emr-6.6.0"
+            "emr-5.35.0, emr-6.6.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "is4gen.2xlarge",
           "Instance type": [
-            "emr-5.35.0, emr-6.6.0"
+            "emr-5.35.0, emr-6.6.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "is4gen.4xlarge",
           "Instance type": [
-            "emr-5.35.0, emr-6.6.0"
+            "emr-5.35.0, emr-6.6.0, emr-7.0.0"
           ]
         },
         {
           "Instance class": "is4gen.8xlarge",
           "Instance type": [
-            "emr-5.35.0, emr-6.6.0"
+            "emr-5.35.0, emr-6.6.0, emr-7.0.0"
           ]
         }
       ],
@@ -3379,7 +3469,7 @@
         {
           "Instance class": "General Purpose",
           "Instance type": [],
-          "Minimum supported Amazon EMR version": []
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": []
         },
         {
           "Instance class": "m5.2xlarge",
@@ -3912,7 +4002,7 @@
         {
           "Instance class": "Compute Optimized",
           "Instance type": [],
-          "Minimum supported Amazon EMR version": []
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": []
         },
         {
           "Instance class": "c5.2xlarge",
@@ -4247,6 +4337,42 @@
           "Instance type": []
         },
         {
+          "Instance class": "c7a.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7a.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7a.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7a.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7a.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7a.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7a.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7a.32xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "c7a.48xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "c7g.xlarge",
           "Instance type": []
         },
@@ -4353,7 +4479,7 @@
         {
           "Instance class": "Accelerated Computing",
           "Instance type": [],
-          "Minimum supported Amazon EMR version": []
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": []
         },
         {
           "Instance class": "g3.8xlarge",
@@ -4454,7 +4580,7 @@
         {
           "Instance class": "Memory Optimized",
           "Instance type": [],
-          "Minimum supported Amazon EMR version": []
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": []
         },
         {
           "Instance class": "r5.2xlarge",
@@ -4945,6 +5071,38 @@
           "Instance type": []
         },
         {
+          "Instance class": "r7i.xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7i.2xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7i.4xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7i.8xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7i.12xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7i.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7i.24xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "r7i.48xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "r7iz.xlarge",
           "Instance type": []
         },
@@ -5091,23 +5249,7 @@
         {
           "Instance class": "Storage Optimized",
           "Instance type": [],
-          "Minimum supported Amazon EMR version": []
-        },
-        {
-          "Instance class": "d2.2xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "d2.4xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "d2.8xlarge",
-          "Instance type": []
-        },
-        {
-          "Instance class": "d3.xlarge",
-          "Instance type": []
+          "Minimum supported Amazon EMR version (5.x, 6.x, 7.x)": []
         },
         {
           "Instance class": "d3.2xlarge",
@@ -5242,7 +5384,15 @@
           "Instance type": []
         },
         {
+          "Instance class": "i4i.12xlarge",
+          "Instance type": []
+        },
+        {
           "Instance class": "i4i.16xlarge",
+          "Instance type": []
+        },
+        {
+          "Instance class": "i4i.24xlarge",
           "Instance type": []
         },
         {

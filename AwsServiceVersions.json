@@ -128,6 +128,38 @@
       "supported": [],
       "deprecated": [
         {
+          "Name": "Java 8",
+          "Identifier": "java8",
+          "Operating system": "Amazon Linux",
+          "Deprecation date": "Jan 8, 2024",
+          "Block function create": "Feb 8, 2024",
+          "Block function update": "Mar 12, 2024"
+        },
+        {
+          "Name": "Go 1.x",
+          "Identifier": "go1.x",
+          "Operating system": "Amazon Linux",
+          "Deprecation date": "Jan 8, 2024",
+          "Block function create": "Feb 8, 2024",
+          "Block function update": "Mar 12, 2024"
+        },
+        {
+          "Name": "OS-only Runtime",
+          "Identifier": "provided",
+          "Operating system": "Amazon Linux",
+          "Deprecation date": "Jan 8, 2024",
+          "Block function create": "Feb 8, 2024",
+          "Block function update": "Mar 12, 2024"
+        },
+        {
+          "Name": "Ruby 2.7",
+          "Identifier": "ruby2.7",
+          "Operating system": "Amazon Linux 2",
+          "Deprecation date": "Dec 7, 2023",
+          "Block function create": "Jan 9, 2024",
+          "Block function update": "Feb 8, 2024"
+        },
+        {
           "Name": "Node.js 14",
           "Identifier": "nodejs14.x",
           "Operating system": "Amazon Linux 2",
@@ -140,14 +172,6 @@
           "Identifier": "python3.7",
           "Operating system": "Amazon Linux",
           "Deprecation date": "Dec 4, 2023",
-          "Block function create": "Jan 9, 2024",
-          "Block function update": "Feb 8, 2024"
-        },
-        {
-          "Name": "Ruby 2.7",
-          "Identifier": "ruby2.7",
-          "Operating system": "Amazon Linux 2",
-          "Deprecation date": "Nov 27, 2023",
           "Block function create": "Jan 9, 2024",
           "Block function update": "Feb 8, 2024"
         },

@@ -5554,6 +5554,7 @@
     "title": "ElastiCache for Memcached versions",
     "engine_version": {
       "supported": [
+        "Memcached version 1.6.22",
         "Memcached version 1.6.17",
         "Memcached version 1.6.12",
         "Memcached version 1.6.6",

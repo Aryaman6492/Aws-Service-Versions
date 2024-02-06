@@ -5254,7 +5254,10 @@
     "id": "versions.services.ecs::fargate_linux.platform_version",
     "title": "Fargate Linux Platform Version",
     "platform_version": {
-      "supported": [],
+      "supported": [
+        "1.4.0",
+        "1.3.0"
+      ],
       "deprecated": [
         {
           "Platform version": "1.0.0",

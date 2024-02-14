@@ -1,113 +1,5 @@
 [
   {
-    "id": "versions.services.emr::datapipeline.instances",
-    "title": "EMR Latest generation of instances for datapipeline",
-    "instances": {
-      "current": [
-        {
-          "Instance Class": "General purpose",
-          "Instance Types": [
-            "m1.small",
-            "m1.medium",
-            "m1.large",
-            "m1.xlarge",
-            "m3.xlarge",
-            "m3.2xlarge"
-          ]
-        },
-        {
-          "Instance Class": "Compute optimized",
-          "Instance Types": [
-            "c1.medium",
-            "c1.xlarge",
-            "c3.xlarge",
-            "c3.2xlarge",
-            "c3.4xlarge",
-            "c3.8xlarge",
-            "cc1.4xlarge",
-            "cc2.8xlarge",
-            "c4.large",
-            "c4.xlarge",
-            "c4.2xlarge",
-            "c4.4xlarge",
-            "c4.8xlarge",
-            "c5.xlarge",
-            "c5.9xlarge",
-            "c5.2xlarge",
-            "c5.4xlarge",
-            "c5.9xlarge",
-            "c5.18xlarge",
-            "c5d.xlarge",
-            "c5d.2xlarge",
-            "c5d.4xlarge",
-            "c5d.9xlarge",
-            "c5d.18xlarge"
-          ]
-        },
-        {
-          "Instance Class": "Memory optimized",
-          "Instance Types": [
-            "m2.xlarge",
-            "m2.2xlarge",
-            "m2.4xlarge",
-            "r3.xlarge",
-            "r3.2xlarge",
-            "r3.4xlarge",
-            "r3.8xlarge",
-            "cr1.8xlarge",
-            "m4.large",
-            "m4.xlarge",
-            "m4.2xlarge",
-            "m4.4xlarge",
-            "m4.10xlarge",
-            "m4.16large",
-            "m5.xlarge",
-            "m5.2xlarge",
-            "m5.4xlarge",
-            "m5.12xlarge",
-            "m5.24xlarge",
-            "m5d.xlarge",
-            "m5d.2xlarge",
-            "m5d.4xlarge",
-            "m5d.12xlarge",
-            "m5d.24xlarge",
-            "r4.large",
-            "r4.xlarge",
-            "r4.2xlarge",
-            "r4.4xlarge",
-            "r4.8xlarge",
-            "r4.16xlarge"
-          ]
-        },
-        {
-          "Instance Class": "Storage optimized",
-          "Instance Types": [
-            "h1.4xlarge",
-            "hs1.2xlarge",
-            "hs1.4xlarge",
-            "hs1.8xlarge",
-            "i2.xlarge",
-            "i2.2xlarge",
-            "i2.4large",
-            "i2.8xlarge",
-            "d2.xlarge",
-            "d2.2xlarge",
-            "d2.4xlarge",
-            "d2.8xlarge"
-          ]
-        },
-        {
-          "Instance Class": "Accelerated computing",
-          "Instance Types": [
-            "g2.2xlarge",
-            "cg1.4xlarge"
-          ]
-        }
-      ],
-      "previous": []
-    }
-  },
-  {
     "id": "versions.services.lam::function.runtime",
     "title": "Lambda latest runtime for all environments",
     "runtime": {
@@ -285,55 +177,30 @@
     }
   },
   {
-    "id": "versions.services.ecs::redis.node_generation",
-    "title": "ElastiCache cluster latest node version ( redis )",
-    "node_generation": {
-      "current": [],
-      "previous": []
-    }
-  },
-  {
-    "id": "versions.services.ecs::redis.engine_version",
-    "title": "ElastiCache for Redis versions",
-    "engine_version": {
+    "id": "versions.services.ecs::fargate_linux.platform_version",
+    "title": "Fargate Linux Platform Version",
+    "platform_version": {
       "supported": [
-        "Redis 7.1 (enhanced)",
-        "Redis 7.0 (enhanced)",
-        "Redis 6.2 (enhanced)",
-        "Redis 6.0 (enhanced)",
-        "Redis 5.0.6 (enhanced)",
-        "Redis 5.0.5 (deprecated, use version 5.0.6)",
-        "Redis 5.0.4 (deprecated, use version 5.0.6)",
-        "Redis 5.0.3 (deprecated, use version 5.0.6)",
-        "Redis 5.0.0 (deprecated, use version 5.0.6)",
-        "Redis 4.0.10 (enhanced)",
-        "Past End of Life (EOL) versions (3.x)",
-        "Past End of Life (EOL) versions (2.x)"
+        "1.4.0",
+        "1.3.0"
       ],
       "deprecated": [
         {
-          "Source Major Version": "Version 3",
-          "Source Minor Versions": "3.2.4, 3.2.6 and 3.2.10",
-          "Recommended Upgrade Target": "Version 6.2 or higherNoteFor US-ISO-EAST-1, US-ISO-WEST-1, and US-ISOB-EAST-1 Regions, we recommend 5.0.6 or higher.",
-          "EOL Date": "July 31, 2023"
+          "Platform version": "1.0.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
         },
         {
-          "Source Major Version": "Version 2",
-          "Source Minor Versions": "2.8.24, 2.8.23, 2.8.22, 2.8.21, 2.8.19, 2.8.12, 2.8.6, 2.6.13",
-          "Recommended Upgrade Target": "Version 6.2 or higherNoteFor US-ISO-EAST-1, US-ISO-WEST-1, and US-ISOB-EAST-1 Regions, we recommend 5.0.6 or higher.",
-          "EOL Date": "January 13, 2023"
+          "Platform version": "1.1.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
+        },
+        {
+          "Platform version": "1.2.0",
+          "Force update date": "October 26, 2020",
+          "Deprecation date": "December 14, 2020"
         }
       ]
-    }
-  },
-  {
-    "id": "versions.services.ecs::fargate_windows.platform_version",
-    "title": "Fargate Windows Platform Version",
-    "platform_version": {
-      "supported": [
-        "1.0.0"
-      ],
-      "deprecated": []
     }
   },
   {
@@ -445,6 +312,249 @@
         "1.24"
       ],
       "deprecated": []
+    }
+  },
+  {
+    "id": "versions.services.red::cluster.node_generation",
+    "title": "Redshift clusters latest generation of nodes",
+    "node_generation": {
+      "current": {
+        "Dense storage node types": [
+          "ds2.xlarge",
+          "ds2.8xlarge"
+        ],
+        "Dense compute node types": [
+          "dc2.large",
+          "dc2.8xlarge",
+          "dc1.large1",
+          "dc1.8xlarge1"
+        ],
+        "Current name": [
+          "ds2.xlarge",
+          "ds2.8xlarge",
+          "dc1.large",
+          "dc1.8xlarge"
+        ]
+      },
+      "previous": {},
+      "recommended_upgrade": {
+        "ds2.xlarge": [
+          {
+            "Existing number of nodes": "1",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 1-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "2",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "3",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "4",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 3-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "5",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "6",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "7",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create a 5-node ra3.xlplus cluster1."
+          },
+          {
+            "Existing number of nodes": "8",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create a 2-node ra3.4xlarge cluster1."
+          },
+          {
+            "Existing number of nodes": "9",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
+          },
+          {
+            "Existing number of nodes": "10",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
+          },
+          {
+            "Existing number of nodes": "11-128",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 1 node of ra3.4xlarge for every 4 nodes of ds2.xlarge1."
+          }
+        ],
+        "ds2.8xlarge": [
+          {
+            "Existing number of nodes": "2-15",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of ds2.8xlarge1."
+          },
+          {
+            "Existing number of nodes": "16-128",
+            "Recommended new node type": "ra3.16xlarge",
+            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of ds2.8xlarge1."
+          }
+        ],
+        "dc2.8xlarge": [
+          {
+            "Existing number of nodes": "2-15",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of dc2.8xlarge1."
+          },
+          {
+            "Existing number of nodes": "16-128",
+            "Recommended new node type": "ra3.16xlarge",
+            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of dc2.8xlarge1."
+          }
+        ],
+        "dc2.large": [
+          {
+            "Existing number of nodes": "1-4",
+            "Recommended new node type": "none",
+            "Upgrade action": "Keep existing dc2.large cluster."
+          },
+          {
+            "Existing number of nodes": "5-15",
+            "Recommended new node type": "ra3.xlplus",
+            "Upgrade action": "Create 3 nodes of ra3.xlplus for every 8 nodes of dc2.large1."
+          },
+          {
+            "Existing number of nodes": "16-32",
+            "Recommended new node type": "ra3.4xlarge",
+            "Upgrade action": "Create 1 node of ra3.4xlarge for every 8 nodes of dc2.large1,2."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "versions.services.ecs::fargate_windows.platform_version",
+    "title": "Fargate Windows Platform Version",
+    "platform_version": {
+      "supported": [
+        "1.0.0"
+      ],
+      "deprecated": []
+    }
+  },
+  {
+    "id": "versions.services.emr::datapipeline.instances",
+    "title": "EMR Latest generation of instances for datapipeline",
+    "instances": {
+      "current": [
+        {
+          "Instance Class": "General purpose",
+          "Instance Types": [
+            "m1.small",
+            "m1.medium",
+            "m1.large",
+            "m1.xlarge",
+            "m3.xlarge",
+            "m3.2xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Compute optimized",
+          "Instance Types": [
+            "c1.medium",
+            "c1.xlarge",
+            "c3.xlarge",
+            "c3.2xlarge",
+            "c3.4xlarge",
+            "c3.8xlarge",
+            "cc1.4xlarge",
+            "cc2.8xlarge",
+            "c4.large",
+            "c4.xlarge",
+            "c4.2xlarge",
+            "c4.4xlarge",
+            "c4.8xlarge",
+            "c5.xlarge",
+            "c5.9xlarge",
+            "c5.2xlarge",
+            "c5.4xlarge",
+            "c5.9xlarge",
+            "c5.18xlarge",
+            "c5d.xlarge",
+            "c5d.2xlarge",
+            "c5d.4xlarge",
+            "c5d.9xlarge",
+            "c5d.18xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Memory optimized",
+          "Instance Types": [
+            "m2.xlarge",
+            "m2.2xlarge",
+            "m2.4xlarge",
+            "r3.xlarge",
+            "r3.2xlarge",
+            "r3.4xlarge",
+            "r3.8xlarge",
+            "cr1.8xlarge",
+            "m4.large",
+            "m4.xlarge",
+            "m4.2xlarge",
+            "m4.4xlarge",
+            "m4.10xlarge",
+            "m4.16large",
+            "m5.xlarge",
+            "m5.2xlarge",
+            "m5.4xlarge",
+            "m5.12xlarge",
+            "m5.24xlarge",
+            "m5d.xlarge",
+            "m5d.2xlarge",
+            "m5d.4xlarge",
+            "m5d.12xlarge",
+            "m5d.24xlarge",
+            "r4.large",
+            "r4.xlarge",
+            "r4.2xlarge",
+            "r4.4xlarge",
+            "r4.8xlarge",
+            "r4.16xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Storage optimized",
+          "Instance Types": [
+            "h1.4xlarge",
+            "hs1.2xlarge",
+            "hs1.4xlarge",
+            "hs1.8xlarge",
+            "i2.xlarge",
+            "i2.2xlarge",
+            "i2.4large",
+            "i2.8xlarge",
+            "d2.xlarge",
+            "d2.2xlarge",
+            "d2.4xlarge",
+            "d2.8xlarge"
+          ]
+        },
+        {
+          "Instance Class": "Accelerated computing",
+          "Instance Types": [
+            "g2.2xlarge",
+            "cg1.4xlarge"
+          ]
+        }
+      ],
+      "previous": []
     }
   },
   {
@@ -5399,33 +5509,6 @@
     }
   },
   {
-    "id": "versions.services.ecs::fargate_linux.platform_version",
-    "title": "Fargate Linux Platform Version",
-    "platform_version": {
-      "supported": [
-        "1.4.0",
-        "1.3.0"
-      ],
-      "deprecated": [
-        {
-          "Platform version": "1.0.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        },
-        {
-          "Platform version": "1.1.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        },
-        {
-          "Platform version": "1.2.0",
-          "Force update date": "October 26, 2020",
-          "Deprecation date": "December 14, 2020"
-        }
-      ]
-    }
-  },
-  {
     "id": "versions.services.rds::instances.classes",
     "title": "RDS Instances latest generation of instance classes",
     "classes": {
@@ -5446,128 +5529,45 @@
     }
   },
   {
-    "id": "versions.services.red::cluster.node_generation",
-    "title": "Redshift clusters latest generation of nodes",
+    "id": "versions.services.ecs::redis.node_generation",
+    "title": "ElastiCache cluster latest node version ( redis )",
     "node_generation": {
-      "current": {
-        "Dense storage node types": [
-          "ds2.xlarge",
-          "ds2.8xlarge"
-        ],
-        "Dense compute node types": [
-          "dc2.large",
-          "dc2.8xlarge",
-          "dc1.large1",
-          "dc1.8xlarge1"
-        ],
-        "Current name": [
-          "ds2.xlarge",
-          "ds2.8xlarge",
-          "dc1.large",
-          "dc1.8xlarge"
-        ]
-      },
-      "previous": {},
-      "recommended_upgrade": {
-        "ds2.xlarge": [
-          {
-            "Existing number of nodes": "1",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 1-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "2",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "3",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 2-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "4",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 3-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "5",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "6",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 4-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "7",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create a 5-node ra3.xlplus cluster1."
-          },
-          {
-            "Existing number of nodes": "8",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create a 2-node ra3.4xlarge cluster1."
-          },
-          {
-            "Existing number of nodes": "9",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
-          },
-          {
-            "Existing number of nodes": "10",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create a 3-node ra3.4xlarge cluster1."
-          },
-          {
-            "Existing number of nodes": "11-128",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create 1 node of ra3.4xlarge for every 4 nodes of ds2.xlarge1."
-          }
-        ],
-        "ds2.8xlarge": [
-          {
-            "Existing number of nodes": "2-15",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of ds2.8xlarge1."
-          },
-          {
-            "Existing number of nodes": "16-128",
-            "Recommended new node type": "ra3.16xlarge",
-            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of ds2.8xlarge1."
-          }
-        ],
-        "dc2.8xlarge": [
-          {
-            "Existing number of nodes": "2-15",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create 2 nodes of ra3.4xlarge for every 1 node of dc2.8xlarge1."
-          },
-          {
-            "Existing number of nodes": "16-128",
-            "Recommended new node type": "ra3.16xlarge",
-            "Upgrade action": "Create 1 node of ra3.16xlarge for every 2 nodes of dc2.8xlarge1."
-          }
-        ],
-        "dc2.large": [
-          {
-            "Existing number of nodes": "1-4",
-            "Recommended new node type": "none",
-            "Upgrade action": "Keep existing dc2.large cluster."
-          },
-          {
-            "Existing number of nodes": "5-15",
-            "Recommended new node type": "ra3.xlplus",
-            "Upgrade action": "Create 3 nodes of ra3.xlplus for every 8 nodes of dc2.large1."
-          },
-          {
-            "Existing number of nodes": "16-32",
-            "Recommended new node type": "ra3.4xlarge",
-            "Upgrade action": "Create 1 node of ra3.4xlarge for every 8 nodes of dc2.large1,2."
-          }
-        ]
-      }
+      "current": [],
+      "previous": []
+    }
+  },
+  {
+    "id": "versions.services.ecs::redis.engine_version",
+    "title": "ElastiCache for Redis versions",
+    "engine_version": {
+      "supported": [
+        "Redis 7.1 (enhanced)",
+        "Redis 7.0 (enhanced)",
+        "Redis 6.2 (enhanced)",
+        "Redis 6.0 (enhanced)",
+        "Redis 5.0.6 (enhanced)",
+        "Redis 5.0.5 (deprecated, use version 5.0.6)",
+        "Redis 5.0.4 (deprecated, use version 5.0.6)",
+        "Redis 5.0.3 (deprecated, use version 5.0.6)",
+        "Redis 5.0.0 (deprecated, use version 5.0.6)",
+        "Redis 4.0.10 (enhanced)",
+        "Past End of Life (EOL) versions (3.x)",
+        "Past End of Life (EOL) versions (2.x)"
+      ],
+      "deprecated": [
+        {
+          "Source Major Version": "Version 3",
+          "Source Minor Versions": "3.2.4, 3.2.6 and 3.2.10",
+          "Recommended Upgrade Target": "Version 6.2 or higherNoteFor US-ISO-EAST-1, US-ISO-WEST-1, and US-ISOB-EAST-1 Regions, we recommend 5.0.6 or higher.",
+          "EOL Date": "July 31, 2023"
+        },
+        {
+          "Source Major Version": "Version 2",
+          "Source Minor Versions": "2.8.24, 2.8.23, 2.8.22, 2.8.21, 2.8.19, 2.8.12, 2.8.6, 2.6.13",
+          "Recommended Upgrade Target": "Version 6.2 or higherNoteFor US-ISO-EAST-1, US-ISO-WEST-1, and US-ISOB-EAST-1 Regions, we recommend 5.0.6 or higher.",
+          "EOL Date": "January 13, 2023"
+        }
+      ]
     }
   }
 ]
